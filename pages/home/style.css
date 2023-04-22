@@ -1,0 +1,315 @@
+.home-image {
+  background-image: url("https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-image: url("https://wallpaperaccess.com/full/822051.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: min(90%, 1000px);
+  margin: auto;
+}
+
+.home-image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(38, 133, 124, 0.593);
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  position: relative;
+  z-index: 10;
+  gap: 500px;
+}
+
+.home-header-logo a {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.home-header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.home-header-nav ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+.home-image-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin: 300px 0;
+}
+
+.home-image-text h1,
+p,
+a {
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+
+/*  */
+
+.home-about {
+  background-color: var(--gold-yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.home-about a,
+.home-about p {
+  color: black;
+}
+
+.home-about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home-marbles {
+  background-color: rgb(108, 186, 234);
+  padding: 50px 0;
+}
+
+.home-marbles p {
+  color: black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.wrapper img {
+  width: 400px;
+}
+
+.wrapper p {
+  font-size: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.bottom i {
+  font-size: 20px;
+}
+.home-about2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  gap: 50px;
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
+.home-about2 p {
+  color: black;
+}
+
+.home-about2 img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.home-products-wrapper {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
+.home-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  gap: 20px;
+}
+
+.home-products-marble {
+  width: 750px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: red;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  overflow: hidden;
+}
+
+.home-products-marble p {
+  color: black;
+  font-size: 20px;
+}
+
+.home-products-marble::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.home-products-marble:hover {
+  background-color: rgba(22, 50, 55, 0.534);
+}
+
+.home-products-marble {
+  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
+}
+
+.home-section-wrapper {
+  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-section-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(38, 133, 124, 0.593);
+}
+
+.home-section-wrapper img,
+.home-section-wrapper h1 {
+  position: relative;
+  z-index: 100;
+}
+
+.home-section {
+  padding: 90px 0;
+  text-align: center;
+  color: black;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.principle {
+  width: 500px;
+}
+
+.home-section h1 {
+  color: black;
+}
+
+.home-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.home-section-marble-wrapper {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
+.home-section-marble {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.home-section-marble p {
+  color: black;
+  font-size: 20px;
+  width: 400px;
+}
+
+.home-section-marble img {
+  width: 500px;
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: var(--gold-yellow);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  padding: 25px;
+  gap: 10px;
+}
+
+.footer p {
+  color: black;
+}
+
+.footer i {
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .nav-top-wrapper {
+    display: none;
+  }
+
+  .home-header-nav ul {
+    display: none;
+  }
+
+  .home-products,
+  .home-section,
+  .home-section-marble {
+    flex-direction: column;
+  }
+}
