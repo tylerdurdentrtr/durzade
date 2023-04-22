@@ -239,6 +239,14 @@ a {
   width: 500px;
 }
 
+.principle img {
+  width: 90px;
+}
+
+.principle h1 {
+  font-size: 25px;
+}
+
 .home-section h1 {
   color: black;
 }
@@ -260,9 +268,12 @@ a {
 .home-section-marble {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 200px;
   align-items: center;
-  padding: 25px 0;
+  padding: 30px 0;
+}
+.home-section-marble h1 {
+  font-size: 50px;
 }
 
 .home-section-marble p {
