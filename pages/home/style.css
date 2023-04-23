@@ -103,6 +103,30 @@ a {
   color: black;
 }
 
+.home-marble {
+  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+}
+
+.home-onyx {
+  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+}
+
+.home-travertine {
+  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+}
+
+.home-granite {
+  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+}
+
+.home-limestone {
+  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+}
+
+.home-products-wrapper {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -144,10 +168,6 @@ a {
 .home-about2 img {
   width: 250px;
   border-radius: 10px;
-}
-
-.home-products-wrapper {
-  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
 }
 
 .home-products {
@@ -307,6 +327,24 @@ a {
 
 .footer i {
   font-size: 15px;
+} */
+
+.lang-btn p {
+  color: black;
+  cursor: pointer;
+}
+
+.lang-btn {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.nav-top-navbar ul {
+  align-items: center;
+}
+
+/* .lang-btn p:hover {
+  color: rgb(206, 206, 206);
 } */
 
 @media (max-width: 600px) {
