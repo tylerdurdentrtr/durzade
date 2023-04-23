@@ -33,15 +33,33 @@ body {
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.nav-top-wrapper {
+.sec {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* padding: 0 100px; */
+}
+
+.sec p {
+  padding: 50px 0;
+}
+
+.nav-top-wrapper,
+.navbar {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  display: none;
+
   position: sticky;
   top: 0;
   z-index: 15;
   background-color: white;
   /* background-color: rgb(22, 82, 76); */
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
+.nav-top-wrapper {
+  display: none;
 }
 
 .nav-top {
@@ -68,4 +86,53 @@ body {
 
 .nav-top a {
   color: black;
+}
+
+.header {
+  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(38, 133, 124, 0.593);
+}
+
+.header h1 {
+  position: relative;
+  z-index: 100;
+  color: white;
+  padding: 50px 0;
+  font-size: 50px;
+}
+
+.footer {
+  background-color: var(--gold-yellow);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  padding: 25px;
+  gap: 10px;
+}
+
+.footer p {
+  color: black;
+}
+
+.footer i {
+  font-size: 15px;
 }

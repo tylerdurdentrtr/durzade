@@ -290,7 +290,7 @@ a {
   border-radius: 10px;
 }
 
-.footer {
+/* .footer {
   background-color: var(--gold-yellow);
 
   display: flex;
@@ -307,7 +307,7 @@ a {
 
 .footer i {
   font-size: 15px;
-}
+} */
 
 @media (max-width: 600px) {
   .nav-top-wrapper {
