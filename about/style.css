@@ -1,0 +1,10 @@
+.about-section {
+  padding: 0 25px;
+  /* text-align: center; */
+}
+
+@media (max-width: 850px) {
+  .about-section {
+    text-align: center;
+  }
+}

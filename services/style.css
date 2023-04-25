@@ -1,0 +1,86 @@
+.services-section-top-wrapper {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
+.services-section-bottom-wrapper {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
+.services-container {
+  width: min(100%, 1200px);
+  margin: auto;
+}
+
+.services-section-top-wrapper {
+  /* background-color: gray; */
+  padding: 50px 0;
+}
+
+.services-section-bottom-wrapper {
+  /* background-color: lightgray; */
+  padding: 50px 0;
+}
+
+.sst-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.sst-box {
+  text-align: center;
+  background-color: white;
+  height: 640px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.sst-box p {
+  width: 300px;
+}
+
+.services-section-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ssb-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.ssb-box {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  height: 400px;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.ssb-box p {
+  width: 300px;
+}
+
+@media (max-width: 1160px) {
+  .services-section-top-wrapper,
+  .services-section-bottom-wrapper {
+    padding-inline: 20px;
+    text-align: center;
+  }
+  .sst-row {
+    flex-direction: column;
+  }
+
+  .ssb-row {
+    flex-direction: column;
+  }
+}

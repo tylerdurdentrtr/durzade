@@ -33,6 +33,17 @@ body {
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
+.lang-box {
+  /* position: absolute; */
+  z-index: 500;
+  bottom: -100px;
+  right: 0;
+}
+
+.lang-box p {
+  color: black;
+}
+
 .sec {
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
   display: flex;
@@ -49,10 +60,9 @@ body {
 .nav-top-wrapper,
 .navbar {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-
   position: sticky;
   top: 0;
-  z-index: 15;
+  z-index: 1000;
   background-color: white;
   /* background-color: rgb(22, 82, 76); */
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
@@ -60,19 +70,22 @@ body {
 
 .nav-top-wrapper {
   display: none;
+  /* position: relative; */
 }
 
 .nav-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  padding: 15px 20px;
   /* display: none; */
 }
 
 .nav-top-navbar ul {
   display: flex;
+  align-items: center;
   gap: 70px;
+  margin-top: 5px;
 }
 
 .nav-top-logo a {
@@ -86,6 +99,16 @@ body {
 
 .nav-top a {
   color: black;
+}
+
+.lang-btn p {
+  color: black;
+  cursor: pointer;
+}
+
+.lang-btn {
+  border: 1px solid black;
+  padding: 10px;
 }
 
 .header {
@@ -120,7 +143,6 @@ body {
 
 .footer {
   background-color: var(--gold-yellow);
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -135,4 +157,22 @@ body {
 
 .footer i {
   font-size: 15px;
+}
+
+.navbar {
+  padding: 0 20px;
+}
+
+@media (max-width: 850px) {
+  .nav-top-navbar {
+    display: none;
+  }
+
+  .navbar h1 {
+    font-size: 10px;
+  }
+
+  .nav-top-logo a {
+    font-size: 30px;
+  }
 }

@@ -1,5 +1,4 @@
 .home-image {
-  background-image: url("https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   background-image: url("https://wallpaperaccess.com/full/822051.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -14,6 +13,7 @@
 .container {
   width: min(90%, 1000px);
   margin: auto;
+  /* background-color: red; */
 }
 
 .home-image::after {
@@ -31,15 +31,22 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+  padding-inline: 20px;
   position: relative;
   z-index: 10;
-  gap: 500px;
+  /* gap: 500px; */
+  /* background-color: red; */
+  /* padding: ; */
 }
 
 .home-header-logo a {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: bold;
+}
+
+.home-header-nav {
+  /* background-color: red; */
 }
 
 .home-header-nav ul {
@@ -70,8 +77,6 @@ a {
   position: relative;
   z-index: 10;
 }
-
-/*  */
 
 .home-about {
   background-color: var(--gold-yellow);
@@ -104,30 +109,30 @@ a {
 }
 
 .home-marble {
-  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
 }
 
 .home-onyx {
-  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
 }
 
 .home-travertine {
-  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
 }
 
 .home-granite {
-  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
 }
 
 .home-limestone {
-  background-image: url("https://i.pinimg.com/originals/47/4e/2a/474e2ad08f9ed1b82df1ac50bd1ebb8a.jpg");
+  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
 }
 
 .home-products-wrapper {
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
 }
 
-.wrapper {
+/* .wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,7 +146,7 @@ a {
 
 .wrapper p {
   font-size: 20px;
-}
+} */
 
 .bottom {
   display: flex;
@@ -174,7 +179,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 0;
+  padding: 25px 20px;
   gap: 20px;
 }
 
@@ -195,7 +200,7 @@ a {
 
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .home-products-marble p {
@@ -203,7 +208,7 @@ a {
   font-size: 20px;
 }
 
-.home-products-marble::after {
+/* .home-products-marble::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -214,11 +219,7 @@ a {
 
 .home-products-marble:hover {
   background-color: rgba(22, 50, 55, 0.534);
-}
-
-.home-products-marble {
-  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
-}
+} */
 
 .home-section-wrapper {
   background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
@@ -246,18 +247,24 @@ a {
 }
 
 .home-section {
-  padding: 90px 0;
+  padding: 90px 10px;
   text-align: center;
   color: black;
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 50px;
 }
 
 .principle {
-  width: 500px;
+  /* background-color: red; */
+  width: 400px;
 }
+
+/* .principle img {
+  width: 500px;
+} */
 
 .principle img {
   width: 90px;
@@ -285,69 +292,83 @@ a {
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
 }
 
+.hsm-container {
+  width: min(90%, 1000px);
+  margin: auto;
+}
+
 .home-section-marble {
   display: flex;
-  justify-content: center;
-  gap: 200px;
+  justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding: 30px 20px;
+  /* background-color: red; */
+  gap: 25px;
 }
+
 .home-section-marble h1 {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .home-section-marble p {
   color: black;
+  /* width: 400px; */
   font-size: 20px;
-  width: 400px;
 }
 
 .home-section-marble img {
-  width: 500px;
-
+  width: 450px;
+  border-radius: 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  border-radius: 10px;
-}
-
-/* .footer {
-  background-color: var(--gold-yellow);
-
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  color: black;
-  padding: 25px;
-  gap: 10px;
-}
-
-.footer p {
-  color: black;
-}
-
-.footer i {
-  font-size: 15px;
-} */
-
-.lang-btn p {
-  color: black;
-  cursor: pointer;
-}
-
-.lang-btn {
-  border: 1px solid black;
-  padding: 10px;
 }
 
 .nav-top-navbar ul {
   align-items: center;
 }
 
-/* .lang-btn p:hover {
-  color: rgb(206, 206, 206);
-} */
+/*  */
 
-@media (max-width: 600px) {
+@media (max-width: 745px) {
+  .home-header-nav ul {
+    display: none;
+  }
+
+  .principle {
+    width: 200px;
+  }
+}
+
+@media (max-width: 910px) {
+  .home-products {
+    flex-direction: column;
+    padding: 25px 25px;
+  }
+
+  .home-section-marble {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-section-marble img {
+    width: 300px;
+  }
+
+  .home-section {
+    flex-direction: column;
+    /* background-color: red; */
+  }
+
+  .home-products-marble {
+    width: 200px;
+  }
+
+  .home-image-text {
+    margin: 100px 0;
+  }
+}
+
+/* @media (max-width: 600px) {
   .nav-top-wrapper {
     display: none;
   }
@@ -356,9 +377,17 @@ a {
     display: none;
   }
 
-  .home-products,
-  .home-section,
-  .home-section-marble {
+  .home-section {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .home-header {
+    padding: 20px;
   }
 }
+@media (max-width: 1200px) {
+  .home-products {
+    flex-direction: column;
+  }
+} */
