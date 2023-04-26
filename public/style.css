@@ -173,13 +173,6 @@ body {
   padding: 0 20px;
 }
 
-.hm-icon,
-.header-hm-icon {
-  font-size: 25px;
-  cursor: pointer;
-  display: none;
-}
-
 .h-menu-modal {
   position: fixed;
   top: 0;
@@ -232,6 +225,13 @@ body {
   cursor: pointer;
 }
 
+.hm-icon,
+.header-hm-icon {
+  font-size: 25px;
+  cursor: pointer;
+  display: none !important;
+}
+
 @media (max-width: 850px) {
   .nav-top-navbar {
     display: none;
@@ -243,5 +243,16 @@ body {
 
   .nav-top-logo a {
     font-size: 30px;
+  }
+
+  .hm-icon,
+  .header-hm-icon {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 850px) {
+  .h-menu-modal {
+    display: none !important;
   }
 }
