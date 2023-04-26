@@ -132,22 +132,6 @@ a {
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
 }
 
-/* .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  text-align: center;
-}
-
-.wrapper img {
-  width: 400px;
-}
-
-.wrapper p {
-  font-size: 20px;
-} */
-
 .bottom {
   display: flex;
   justify-content: space-between;
@@ -327,7 +311,19 @@ a {
   align-items: center;
 }
 
+.header-hm-icon {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 /*  */
+
+.hm-icon {
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
 
 @media (max-width: 745px) {
   .home-header-nav ul {
@@ -336,6 +332,10 @@ a {
 
   .principle {
     width: 200px;
+  }
+
+  .header-hm-icon {
+    display: block;
   }
 }
 
@@ -367,27 +367,3 @@ a {
     margin: 100px 0;
   }
 }
-
-/* @media (max-width: 600px) {
-  .nav-top-wrapper {
-    display: none;
-  }
-
-  .home-header-nav ul {
-    display: none;
-  }
-
-  .home-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .home-header {
-    padding: 20px;
-  }
-}
-@media (max-width: 1200px) {
-  .home-products {
-    flex-direction: column;
-  }
-} */

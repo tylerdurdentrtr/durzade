@@ -1,0 +1,57 @@
+.contact-section-wrapper {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+  padding: 100px 0;
+}
+
+.contact-container {
+  width: min(90%, 1090px);
+  margin: auto;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: -20px; */
+}
+
+.contact-area {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.contact-map {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+}
+
+.contact-title i {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+@media (max-width: 1185px) {
+  .contact-card {
+    flex-direction: column;
+    gap: 25px;
+    /* align-items: center; */
+  }
+  .contact-map {
+    width: 340px;
+  }
+
+  .contact-section-wrapper {
+    padding: 50px 0;
+  }
+}
