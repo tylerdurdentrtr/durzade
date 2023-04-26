@@ -99,6 +99,24 @@ a {
   gap: 20px;
 }
 
+.home-projects-wrapper {
+  /* background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg"); */
+  background-color: var(--gold-yellow);
+}
+
+.home-projects {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.home-projects img {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
 .home-marbles {
   background-color: rgb(108, 186, 234);
   padding: 50px 0;
@@ -336,6 +354,28 @@ a {
 
   .header-hm-icon {
     display: block;
+  }
+}
+
+@media (max-width: 1120px) {
+  .home-projects {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .home-projects img {
+    /* width: 250px; */
+    /* width: 100%; */
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-projects img {
+    /* width: 250px; */
+    width: 100%;
+    /* width: 50%; */
   }
 }
 
