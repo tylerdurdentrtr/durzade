@@ -46,10 +46,6 @@
   font-weight: bold;
 }
 
-.home-header-nav {
-  /* background-color: red; */
-}
-
 .home-header-nav ul {
   display: flex;
   justify-content: space-between;
