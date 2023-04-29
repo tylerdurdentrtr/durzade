@@ -1,5 +1,6 @@
 .home-image {
-  background-image: url("https://wallpaperaccess.com/full/822051.jpg");
+  /* background-image: url("https://wallpaperaccess.com/full/822051.jpg"); */
+  background-image: url("../images/home-header/1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +24,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(38, 133, 124, 0.593);
+  background-color: rgba(38, 133, 124, 0.26);
 }
 
 .home-header {
