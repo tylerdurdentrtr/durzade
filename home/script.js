@@ -3,7 +3,7 @@ let homeImage = document.querySelector(".home-image");
 let images = [
   "./images/home-header/1.jpg",
   "./images/home-header/2.jpg",
-  "./images/home-header/3.jpg",
+  //   "./images/home-header/3.jpg",
 ];
 
 let number = 0;
