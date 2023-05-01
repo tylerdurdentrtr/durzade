@@ -9,6 +9,10 @@
   gap: 20px;
 }
 
+.products-section a {
+  color: black;
+}
+
 .home-products-marble {
   background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
 }

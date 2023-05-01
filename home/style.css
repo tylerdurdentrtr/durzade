@@ -210,6 +210,10 @@ a {
   font-size: 20px;
 }
 
+.home-products a {
+  color: black;
+}
+
 /* .home-products-marble::after {
   content: "";
   position: absolute;

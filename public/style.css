@@ -358,6 +358,86 @@ body {
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.512);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  display: none;
+}
+
+.close-modal1 {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+.modal-image {
+  position: relative;
+}
+
+.modal-image i {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.modal-image h3 {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.042);
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-img {
+  width: 750px;
+}
+
+.modal i {
+  color: white;
+  cursor: pointer;
+}
+
+.modal > i {
+  font-size: 25px;
+}
+
+.modal > i:first-child {
+  margin-right: 100px;
+}
+.modal > i:last-child {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 645px) {
+  .modal-image img {
+    width: 300px;
+  }
+
+  .modal > i:first-child {
+    margin-right: 0;
+  }
+  .modal > i:last-child {
+    margin-left: 0;
+  }
+
+  .mts-top-right {
+    width: 350px;
+  }
+
+  .mts-top {
+    gap: 50px;
+  }
+}
+
 @media (max-width: 1205px) {
   .pic-row {
     flex-direction: column;
