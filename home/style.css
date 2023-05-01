@@ -1,3 +1,5 @@
+@import url("../public/style.css");
+
 .home-image {
   /* background-image: url("https://wallpaperaccess.com/full/822051.jpg"); */
   background-image: url("../images/home-header/1.jpg");
@@ -24,7 +26,8 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(38, 133, 124, 0.26);
+  /* background-color: rgba(38, 133, 124, 0.26); */
+  background-color: var(--blue);
 }
 
 .home-header {
@@ -236,7 +239,8 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(38, 133, 124, 0.593);
+  /* background-color: rgba(38, 133, 124, 0.593); */
+  background-color: var(--blue);
 }
 
 .home-section-wrapper img,
@@ -338,6 +342,21 @@ a {
   font-size: 25px;
   cursor: pointer;
   display: none;
+}
+
+.btn2 {
+  background-color: var(--gold-yellow);
+  /* padding: 7px 50px; */
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
 }
 
 @media (max-width: 745px) {

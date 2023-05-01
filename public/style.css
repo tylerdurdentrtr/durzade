@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
-  --gold-yellow: rgb(241, 216, 75);
+  /* --gold-yellow: rgb(241, 216, 75); */
+  --gold-yellow: rgb(255, 116, 41);
+  --blue: rgba(93, 93, 255, 0.295);
 }
 
 * {
@@ -29,6 +31,7 @@ body {
   display: inline-block;
   color: black;
   font-weight: bold;
+  border: none;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
@@ -88,9 +91,27 @@ body {
   margin-top: 5px;
 }
 
+.nav-top-logo,
+.home-header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13px;
+  margin-top: 15px;
+}
+
 .nav-top-logo a {
   font-weight: bold;
   font-size: 40px;
+}
+
+.logo-amblem {
+  width: 65px;
+}
+
+.logo-text {
+  width: 220px;
+  margin-bottom: 7px;
 }
 
 .nav-top-navbar a {
@@ -169,6 +190,11 @@ body {
   font-size: 15px;
 }
 
+.footer img {
+  width: 225px;
+  margin-bottom: 5px;
+}
+
 .navbar {
   padding: 0 20px;
 }
@@ -232,7 +258,124 @@ body {
   display: none !important;
 }
 
-@media (max-width: 850px) {
+/* pic */
+
+.mable-type-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic-row-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* background-color: red; */
+  padding: 50px 0;
+}
+
+.pic {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.pic-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic-img {
+  cursor: pointer;
+  position: relative;
+}
+
+.pic-img img {
+  height: 200px;
+  width: 250px;
+  /* width: 300px; */
+  margin-bottom: -7px;
+  /* border-radius: 10px; */
+}
+
+.pic-img:hover .pic-modal {
+  display: flex;
+}
+
+.pic-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.491);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.pic-modal i {
+  color: white;
+  font-size: 20px;
+}
+
+.pic-text {
+  color: black;
+  /* background-color: rgb(172, 172, 172); */
+  background-color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+.pic-text h3 {
+  cursor: auto;
+  display: inline;
+  font-size: 20px;
+  font-weight: bolder;
+  /* color: white; */
+  text-decoration: none;
+}
+.pic-text a:hover {
+  cursor: pointer;
+  display: inline;
+  color: rgb(208, 208, 208);
+}
+/* pic */
+
+/* .pic-row-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+
+.pic-row {
+  display: flex;
+  /* flex-direction: column; */
+  /* margin-bottom: 200px; */
+  gap: 66px;
+  /* background-color: red; */
+}
+
+.bg-pattern {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+}
+
+@media (max-width: 1205px) {
+  .pic-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo-amblem {
+    width: 50px;
+  }
+
+  .logo-text {
+    width: 175px;
+  }
+}
+
+@media (max-width: 1259px) {
   .nav-top-navbar {
     display: none;
   }

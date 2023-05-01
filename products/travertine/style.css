@@ -1,0 +1,70 @@
+.products-section-wrapper,
+.marble-category-wrapper {
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+  padding: 150px;
+}
+
+.products-section,
+.marble-category {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 20px;
+}
+
+.marble-category-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.home-products-marble,
+.marble-category {
+  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
+}
+
+.home-products-marble,
+.marble-category {
+  width: 750px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  /* background-color: red; */
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* overflow: hidden; */
+}
+
+.home-products-marble p,
+.marble-category p {
+  color: black;
+  font-size: 20px;
+}
+
+@media (max-width: 1120px) {
+  .marble-category-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-products-marble {
+    width: 500px;
+  }
+  .products-section-wrapper {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 530px) {
+  .home-products-marble {
+    width: 200px;
+  }
+}
