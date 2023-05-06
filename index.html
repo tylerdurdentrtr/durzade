@@ -30,18 +30,23 @@
                 <a href="">Home</a>
               </li> -->
               <li>
-                <a href="./about/index.html">About</a>
+                <a data-i18n="home1" href="./about/index.html">About</a>
               </li>
               <li>
-                <a href="./products/index.html">Products</a>
+                <a data-i18n="home2" href="./products/index.html">Products</a>
               </li>
               <li>
-                <a href="./services/index.html">Services</a>
+                <a data-i18n="home3" href="./services/index.html">Services</a>
               </li>
               <li>
-                <a href="./contact/index.html">Contact</a>
+                <a data-i18n="home4" href="./contact/index.html">Contact</a>
               </li>
-              <button class="btn2">Turkish</button>
+              <!-- <button class="btn2">Turkish</button> -->
+              <select class="lang-selector">
+                <option value="en" data-i18n="english">English</option>
+                <option value="ar" data-i18n="arabic">Arabic</option>
+                <option value="tr" data-i18n="turkish">Turkish</option>
+              </select>
             </ul>
           </div>
           <i class="fa-solid fa-bars hm-icon"></i>
@@ -54,23 +59,23 @@
         <i class="fa-solid fa-xmark hm-close"></i>
         <a href="index.html">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p data-i18n="home5">Home</p>
         </a>
         <a href="./about/index.html">
           <i class="fa-solid fa-address-card"></i>
-          <p>About</p>
+          <p data-i18n="home1">About</p>
         </a>
         <a href="./products/index.html">
           <i class="fa-solid fa-box"></i>
-          <p>Products</p>
+          <p data-i18n="home2">Products</p>
         </a>
         <a href="./services/index.html">
           <i class="fa-solid fa-handshake"></i>
-          <p>Services</p>
+          <p data-i18n="home3">Services</p>
         </a>
         <a href="./contact/index.html">
           <i class="fa-solid fa-address-book"></i>
-          <p>Contact</p>
+          <p data-i18n="home4">Contact</p>
         </a>
       </div>
     </div>
@@ -89,16 +94,16 @@
           <div class="home-header-nav">
             <ul>
               <li>
-                <a href="./about/index.html">About</a>
+                <a data-i18n="home1" href="./about/index.html">About</a>
               </li>
               <li>
-                <a href="./products/index.html">Products</a>
+                <a data-i18n="home2" href="./products/index.html">Products</a>
               </li>
               <li>
-                <a href="./services/index.html">Services</a>
+                <a data-i18n="home3" href="./services/index.html">Services</a>
               </li>
               <li>
-                <a href="./contact/index.html">Contact</a>
+                <a data-i18n="home4" href="./contact/index.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -106,21 +111,21 @@
         </div>
 
         <div class="home-image-text">
-          <h1>Lorem ipsum dolor sit amet.</h1>
-          <p>
+          <h1 data-i18n="home6">Lorem ipsum dolor sit amet.</h1>
+          <p data-i18n="home7">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             tempore quas corporis eligendi ab consequuntur eaque voluptates,
             libero molestiae nemo.
           </p>
-          <a class="btn" href="./products/index.html">See</a>
+          <a data-i18n="home8" class="btn" href="./products/index.html">See</a>
         </div>
       </div>
     </div>
 
     <div class="home-about">
       <div class="container">
-        <h1>Follow Us</h1>
-        <p>
+        <h1 data-i18n="home9">Follow Us</h1>
+        <p data-i18n="home10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
           laborum?
         </p>
@@ -130,16 +135,6 @@
           <i class="fa-brands fa-linkedin-in"></i>
           <i class="fa-brands fa-instagram"></i>
         </div>
-      </div>
-    </div>
-
-    <div class="home-projects-wrapper">
-      <div class="container">
-        <!-- <div class="home-projects">
-          <img src="./images/home1.jpg" alt="" />
-          <img src="./images/home2.jpg" alt="" />
-          <img src="./images/home3.jpg" alt="" />
-        </div> -->
       </div>
     </div>
 
@@ -212,19 +207,19 @@
             <img src="./images/principle/s1.png" alt="" />
             <br />
             <br />
-            <h1>Knowledge & Consultancy</h1>
+            <h1 data-i18n="home11">Knowledge & Consultancy</h1>
           </div>
           <div class="principle">
             <img src="./images/principle/s2.png" alt="" />
             <br />
             <br />
-            <h1>Quality Controll</h1>
+            <h1 data-i18n="home12">Quality Controll</h1>
           </div>
           <div class="principle">
             <img src="./images/principle/s3.png" alt="" />
             <br />
             <br />
-            <h1>Customer Care</h1>
+            <h1 data-i18n="home13">Customer Care</h1>
           </div>
         </div>
       </div>
@@ -234,9 +229,9 @@
       <div class="hsm-container">
         <div class="home-section-marble">
           <div>
-            <h1>Capacity</h1>
+            <h1 data-i18n="home14">Capacity</h1>
             <br />
-            <p>
+            <p data-i18n="home15">
               A high storage capacity for a wide product range of colors and
               selections, for varieties of international marble, available in
               the sizes of slabs and standard tiles.
@@ -248,12 +243,6 @@
           />
         </div>
       </div>
-    </div>
-
-    <div class="deneme">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellat.
-      </p>
     </div>
 
     <div class="footer">
@@ -276,11 +265,6 @@
     </div>
     <script src="./public/script.js"></script>
     <script src="./home/script.js"></script>
+    <script src="./i18n/translate.js" type="module"></script>
   </body>
 </html>
-
-<!-- marble
-travertine
-onyx
-limestone
-granite -->
