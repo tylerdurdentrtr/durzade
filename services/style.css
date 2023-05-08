@@ -77,8 +77,14 @@
     padding-inline: 20px;
     text-align: center;
   }
+
+  .sst-box {
+    padding: 25px;
+  }
+
   .sst-row {
     flex-direction: column;
+    /* align-items: center; */
   }
 
   .ssb-row {

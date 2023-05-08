@@ -10,10 +10,13 @@ let page = titleElement.textContent;
 
 console.log(page);
 
-const languageSelector = document.querySelector(".lang-selector");
-languageSelector.addEventListener("change", (event) => {
-  setLanguage(event.target.value);
-  localStorage.setItem("lang", event.target.value);
+const languageSelectors = document.querySelectorAll(".lang-selector");
+
+languageSelectors.forEach((languageSelector) => {
+  languageSelector.addEventListener("change", (event) => {
+    setLanguage(event.target.value);
+    localStorage.setItem("lang", event.target.value);
+  });
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -27,5 +30,6 @@ const setLanguage = (language) => {
     const translationKey = element.getAttribute("data-i18n");
     element.textContent = translations[page][language][translationKey];
   });
+
   document.dir = language === "ar" ? "rtl" : "ltr";
 };

@@ -24,11 +24,6 @@
 
 .home-products-marble,
 .marble-category {
-  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
-}
-
-.home-products-marble,
-.marble-category {
   width: 750px;
   height: 300px;
   display: flex;
@@ -54,6 +49,24 @@
   font-size: 20px;
 }
 
+.travertine-gold {
+  background-image: url("../../images/products/travertine/gold/gallery/1.jpg");
+}
+.travertine-ivory {
+  background-image: url("../../images/products/travertine/ivory/gallery/2.jpg");
+}
+.travertine-noche {
+  background-image: url("../../images/products/travertine/noche/gallery/1.jpg");
+}
+.travertine-red {
+  background-image: url("../../images/products/travertine/red/gallery/1.jpg");
+}
+.travertine-scabos {
+  background-image: url("../../images/products/travertine/scabos/gallery/1.jpg");
+}
+.travertine-silver {
+  background-image: url("../../images/products/travertine/silver/gallery/1.jpg");
+}
 @media (max-width: 1120px) {
   .marble-category-row {
     flex-direction: column;
