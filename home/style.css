@@ -268,21 +268,66 @@ a {
   gap: 50px;
 }
 
-.principle {
-  /* background-color: red; */
-  width: 400px;
+.home-spining-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: var(--blue);
+  padding: 25px 0;
 }
 
-/* .principle img {
-  width: 500px;
-} */
-
-.principle img {
-  width: 90px;
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* 3D görünüm perspektifi */
 }
 
-.principle h1 {
-  font-size: 25px;
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* 3D dönüşüm sırasında arka yüzü gizleme */
+  transition: transform 0.75s ease; /* Dönüşüm süresi ve geçiş efekti */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 5px;
+  background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.back p {
+  color: black;
+  text-align: center;
+}
+
+.front {
+  transform: rotateY(0deg); /* Ön yüz varsayılan dönüşümü */
+}
+
+.back {
+  transform: rotateY(-180deg); /* Ark yüzü başlangıçta ters çevir */
+}
+
+.card:hover .front {
+  transform: rotateY(180deg); /* Hover durumunda Ön yüzü 180 derece döndür */
+}
+
+.card:hover .back {
+  transform: rotateY(0deg); /* Hover durumunda Ark yüzü 180 derece döndür */
+}
+
+.home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-section h1 {
@@ -435,5 +480,9 @@ a {
 
   .home-image-text {
     margin: 100px 0;
+  }
+
+  .home-spining-cards {
+    flex-direction: column;
   }
 }

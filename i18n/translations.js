@@ -14,12 +14,18 @@ const translations = {
       home8: "See",
       home9: "Follow Us",
       home10: "Follow our social media accounts now.",
-      home11: "Knowledge & Consultancy",
-      home12: "Quality Controll",
-      home13: "Customer Care",
-      home14: "Capacity",
-      home15:
-        "A high storage capacity for a wide product range of colors and selections, for varieties of international marble, available in the sizes of slabs and standard tiles.",
+      home11: "Our Missions",
+      home12:
+        "To be a leader in the marble industry, providing our customers with the highest level of service and meeting their needs in the best possible way, with a focus on quality, aesthetics, and variety.",
+      home13: "Our Vision",
+      home14:
+        "By continuously offering our customers the highest quality marbles, we will continue to be a leader in our industry. At the same time, we will add value to the sector by providing innovative and sustainable solutions.",
+      home15: "Our Values",
+      home16:
+        "Customer satisfaction, quality craftsmanship, innovation, honesty, and sustainability are our most important values. Through these values, we provide the best service to our customers.",
+      home17: "Artwork",
+      home18:
+        "We see marble not only as a material, but also as an art piece with endless design potential. We don't just offer high-quality products, but also create unique designs that exceed our customers' expectations and make a difference.",
     },
 
     ar: {
@@ -36,12 +42,22 @@ const translations = {
       home8: "انظر",
       home9: "تابعنا",
       home10: "تابع حساباتنا على وسائل التواصل الاجتماعي الآن.",
-      home11: "المعرفة والاستشارات",
-      home12: "مراقبة الجودة",
-      home13: "العناية بالعملاء",
-      home14: "القدرة",
-      home15:
-        "سعة تخزين عالية لمجموعة واسعة من الألوان والاختيارات لأصناف الرخام الدولي، متاحة في أحجام اللوحات والبلاطات القياسية.",
+
+      home11: "مهمتنا",
+      home12:
+        "مهمتنا: أن نكون رائدة في صناعة الرخام ، وتوفير خدمات عالية الجودة لعملائنا وتلبية احتياجاتهم بأفضل طريقة ممكنة ، مع التركيز على الجودة والجمالية والتنوع.",
+
+      home13: "رؤيتنا",
+      home14:
+        "رؤيتنا: من خلال تقديم أعلى مستوى من الرخام لعملائنا باستمرار ، سنستمر في التفوق كزعيم في صناعتنا. في الوقت نفسه ، سنضيف قيمة للقطاع من خلال توفير حلول مبتكرة ومستدامة.",
+
+      home15: "قيمنا",
+      home16:
+        "قيمنا: رضا العملاء ، والحرفية عالية الجودة ، والابتكار ، والنزاهة ، والاستدامة هي أهم قيمنا. من خلال هذه القيم ، نوفر أفضل خدمة لعملائنا.",
+
+      home17: " عمل فنيّ",
+      home18:
+        "نرى الرخام ليس فقط مادة، بل كعمل فني له إمكانات تصميمية لا نهاية لها. نحن لا نقدم منتجات عالية الجودة فحسب، بل نخلق تصاميم فريدة تتجاوز توقعات عملائنا وتحدث فرقًا.",
     },
 
     tr: {
@@ -58,12 +74,18 @@ const translations = {
       home8: "Göz at",
       home9: "Bizi Takip Edin",
       home10: "Sosyal medya hesaplarımızı hemen şimdi takip edin.",
-      home11: "Bilgi ve Danışmanlık",
-      home12: "Kalite Kontrolü",
-      home13: "Müşteri Hizmetleri",
-      home14: "Kapasite",
-      home15:
-        "Uluslararası mermer çeşitlerinin slab ve standart fayans boyutlarında mevcut olduğu geniş bir renk ve seçenek yelpazesinde yüksek bir depolama kapasitesi.",
+      home11: "Misyonumuz",
+      home12:
+        "Mermer sektöründe kalite, estetik ve çeşitlilik konusunda lider olmak için müşterilerimize en üst düzeyde hizmet sunarak, onların ihtiyaçlarını en iyi şekilde karşılamak.",
+      home13: "Vizyonumuz",
+      home14:
+        "Müşterilerimize sürekli olarak en kaliteli mermerleri sunarak, sektörümüzde lider olmaya devam edeceğiz. Aynı zamanda, yenilikçi ve sürdürülebilir çözümler sunarak, sektöre değer katacağız.",
+      home15: "Değerlerimiz",
+      home16:
+        "Müşterilerimizin memnuniyeti, kaliteli işçilik, yenilikçilik, dürüstlük, ve sürdürülebilirlik bizim en önemli değerlerimizdir. Bu değerlerimiz sayesinde müşterilerimize en iyi hizmeti sunarız.",
+      home17: "Bir sanat eseri",
+      home18:
+        "Biz mermerde sadece bir malzeme değil, aynı zamanda sonsuz tasarım potansiyeli olan bir sanat eseri görüyoruz. Müşterilerimize yalnızca kaliteli ürünler sunmakla kalmıyor, aynı zamanda onların beklentilerini aşan özgün tasarımlar sunarak fark yaratıyoruz.",
     },
   },
   about: {},
