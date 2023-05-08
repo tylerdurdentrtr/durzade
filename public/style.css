@@ -425,11 +425,16 @@ body {
 }
 
 .home-marble {
-  background-image: url("https://i0.wp.com/marbledoctorva.com/wp-content/uploads/2022/09/marble-around-the-world.webp?fit=1000%2C563&ssl=1");
+  background-image: url("https://i.pinimg.com/originals/b1/af/c9/b1afc976a2cf40e108bec15f8b98ab61.jpg");
+}
+
+.home-marble h3,
+.home-marble p {
+  color: white;
 }
 
 .home-onyx {
-  background-image: url("https://t4.ftcdn.net/jpg/03/76/38/69/360_F_376386974_qKYpdNqrqLwJC8ensf54JbAObz56INMy.jpg");
+  background-image: url("https://i.pinimg.com/originals/fb/e9/f3/fbe9f3ce8b39eeaec7f91021f600dbaa.png");
 }
 
 .home-travertine {
