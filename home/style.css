@@ -198,7 +198,7 @@ a {
   gap: 20px;
   align-items: center;
   text-align: center;
-  background-color: red;
+  /* background-color: red; */
   font-size: 25px;
   border-radius: 10px;
   cursor: pointer;
