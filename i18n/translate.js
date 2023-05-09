@@ -2,11 +2,9 @@ import translations from "./translations.js";
 
 let titleElement = document.querySelector("head title");
 
-titleElement.textContent = titleElement.textContent.toLowerCase();
+let page = titleElement.textContent.toLowerCase();
 
-if (titleElement.textContent === "durzade") titleElement.textContent = "home";
-
-let page = titleElement.textContent;
+if (page === "durzade") page = "home";
 
 console.log(page);
 
