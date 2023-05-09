@@ -14,33 +14,33 @@ const translations = {
       home8: "See",
       home9: "Follow Us",
       home10: "Follow our social media accounts now.",
-      home10: "Marble",
-      home10: "luxury",
-      home10: "and",
-      home10: "sophisticated",
-      home10: "Travertine",
-      home10: "elegant",
-      home10: "dramatic",
-      home10: "Onyx",
-      home10: "modern",
-      home10: "stylish",
-      home10: "Limestone",
-      home10: "artistic",
-      home10: "intricate",
-      home10: "Granite",
-      home10: "pure",
-      home10: "classic",
-      home11: "Our Missions",
-      home12:
+      home11: "Marble",
+      home12: "luxury",
+      home13: "and",
+      home14: "sophisticated",
+      home15: "Travertine",
+      home16: "elegant",
+      home17: "dramatic",
+      home18: "Onyx",
+      home19: "modern",
+      home20: "stylish",
+      home21: "Limestone",
+      home22: "artistic",
+      home23: "intricate",
+      home24: "Granite",
+      home25: "pure",
+      home26: "classic",
+      home27: "Our Missions",
+      home28:
         "To be a leader in the marble industry, providing our customers with the highest level of service and meeting their needs in the best possible way, with a focus on quality, aesthetics, and variety.",
-      home13: "Our Vision",
-      home14:
+      home29: "Our Vision",
+      home30:
         "By continuously offering our customers the highest quality marbles, we will continue to be a leader in our industry. At the same time, we will add value to the sector by providing innovative and sustainable solutions.",
-      home15: "Our Values",
-      home16:
+      home31: "Our Values",
+      home32:
         "Customer satisfaction, quality craftsmanship, innovation, honesty, and sustainability are our most important values. Through these values, we provide the best service to our customers.",
-      home17: "Artwork",
-      home18:
+      home33: "Artwork",
+      home34:
         "We see marble not only as a material, but also as an art piece with endless design potential. We don't just offer high-quality products, but also create unique designs that exceed our customers' expectations and make a difference.",
     },
 
@@ -58,41 +58,37 @@ const translations = {
       home8: "انظر",
       home9: "تابعنا",
       home10: "تابع حساباتنا على وسائل التواصل الاجتماعي الآن.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
-      home10: "Follow our social media accounts now.",
+      home11: "رخام",
+      home12: "فخم",
+      home13: "و",
+      home14: "متطور",
+      home15: "ترافرتين",
+      home16: "أنيق",
+      home17: "مثير للإعجاب",
+      home18: "أونيكس",
+      home19: "حديث",
+      home20: "أنيق",
+      home21: "حجر جيري",
+      home22: "فني",
+      home23: "معقد",
+      home24: "غرانيت",
+      home25: "نقي",
+      home26: "كلاسيكي",
 
-      home11: "مهمتنا",
-      home12:
+      home27: "مهمتنا",
+      home28:
         "مهمتنا: أن نكون رائدة في صناعة الرخام ، وتوفير خدمات عالية الجودة لعملائنا وتلبية احتياجاتهم بأفضل طريقة ممكنة ، مع التركيز على الجودة والجمالية والتنوع.",
 
-      home13: "رؤيتنا",
-      home14:
+      home29: "رؤيتنا",
+      home30:
         "رؤيتنا: من خلال تقديم أعلى مستوى من الرخام لعملائنا باستمرار ، سنستمر في التفوق كزعيم في صناعتنا. في الوقت نفسه ، سنضيف قيمة للقطاع من خلال توفير حلول مبتكرة ومستدامة.",
 
-      home15: "قيمنا",
-      home16:
+      home31: "قيمنا",
+      home32:
         "قيمنا: رضا العملاء ، والحرفية عالية الجودة ، والابتكار ، والنزاهة ، والاستدامة هي أهم قيمنا. من خلال هذه القيم ، نوفر أفضل خدمة لعملائنا.",
 
-      home17: " عمل فنيّ",
-      home18:
+      home33: " عمل فنيّ",
+      home34:
         "نرى الرخام ليس فقط مادة، بل كعمل فني له إمكانات تصميمية لا نهاية لها. نحن لا نقدم منتجات عالية الجودة فحسب، بل نخلق تصاميم فريدة تتجاوز توقعات عملائنا وتحدث فرقًا.",
     },
 
@@ -110,17 +106,33 @@ const translations = {
       home8: "Göz at",
       home9: "Bizi Takip Edin",
       home10: "Sosyal medya hesaplarımızı hemen şimdi takip edin.",
-      home11: "Misyonumuz",
-      home12:
+      home11: "Mermer",
+      home12: "lüks",
+      home13: "ve",
+      home14: "sofistike",
+      home15: "Traverten",
+      home16: "zarif",
+      home17: "etkileyici",
+      home18: "Oniks",
+      home19: "modern",
+      home20: "şık",
+      home21: "Kalker",
+      home22: "sanatsal",
+      home23: "karmaşık",
+      home24: "Granit",
+      home25: "doğal",
+      home26: "klasik",
+      home27: "Misyonumuz",
+      home28:
         "Mermer sektöründe kalite, estetik ve çeşitlilik konusunda lider olmak için müşterilerimize en üst düzeyde hizmet sunarak, onların ihtiyaçlarını en iyi şekilde karşılamak.",
-      home13: "Vizyonumuz",
-      home14:
+      home29: "Vizyonumuz",
+      home30:
         "Müşterilerimize sürekli olarak en kaliteli mermerleri sunarak, sektörümüzde lider olmaya devam edeceğiz. Aynı zamanda, yenilikçi ve sürdürülebilir çözümler sunarak, sektöre değer katacağız.",
-      home15: "Değerlerimiz",
-      home16:
+      home31: "Değerlerimiz",
+      home32:
         "Müşterilerimizin memnuniyeti, kaliteli işçilik, yenilikçilik, dürüstlük, ve sürdürülebilirlik bizim en önemli değerlerimizdir. Bu değerlerimiz sayesinde müşterilerimize en iyi hizmeti sunarız.",
-      home17: "Bir sanat eseri",
-      home18:
+      home33: "Bir sanat eseri",
+      home34:
         "Biz mermerde sadece bir malzeme değil, aynı zamanda sonsuz tasarım potansiyeli olan bir sanat eseri görüyoruz. Müşterilerimize yalnızca kaliteli ürünler sunmakla kalmıyor, aynı zamanda onların beklentilerini aşan özgün tasarımlar sunarak fark yaratıyoruz.",
     },
   },
