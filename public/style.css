@@ -428,6 +428,20 @@ body {
   background-image: url("https://i.pinimg.com/originals/b1/af/c9/b1afc976a2cf40e108bec15f8b98ab61.jpg");
 }
 
+.home-marble:hover,
+.home-onyx:hover,
+.home-travertine:hover,
+.home-limestone:hover,
+.home-granite:hover {
+  background-size: cover;
+  transition: 0.25ms;
+}
+
+.home-products-marble:hover {
+  background-size: cover;
+  transition: 0.25ms;
+}
+
 .home-marble h3,
 .home-marble p,
 .home-granite p,
