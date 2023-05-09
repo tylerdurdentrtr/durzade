@@ -38,6 +38,13 @@
   font-size: 20px;
 }
 
+.home-marble h3,
+.home-marble p,
+.home-granite p,
+.home-granite h3 {
+  color: white;
+}
+
 @media (max-width: 1120px) {
   .products-section {
     /* flex-direction: column; */

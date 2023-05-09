@@ -16,28 +16,34 @@
     <div class="h-menu-modal">
       <div class="h-menu">
         <i class="fa-solid fa-xmark hm-close"></i>
-        <a href="../index.html">
+        <a href="index.html">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p data-i18n="home5">Home</p>
         </a>
-        <a href="../about/index.html">
+        <a href="./about/index.html">
           <i class="fa-solid fa-address-card"></i>
-          <p>About</p>
+          <p data-i18n="home1">About</p>
         </a>
-        <a href="../products/index.html">
+        <a href="./products/index.html">
           <i class="fa-solid fa-box"></i>
-          <p>Products</p>
+          <p data-i18n="home2">Products</p>
         </a>
-        <a href="../services/index.html">
+        <a href="./services/index.html">
           <i class="fa-solid fa-handshake"></i>
-          <p>Services</p>
+          <p data-i18n="home3">Services</p>
         </a>
-        <a href="./index.html">
+        <a href="./contact/index.html">
           <i class="fa-solid fa-address-book"></i>
-          <p>Contact</p>
+          <p data-i18n="home4">Contact</p>
         </a>
+        <select class="lang-selector">
+          <option value="en" data-i18n="english">English</option>
+          <option value="ar" data-i18n="arabic">Arabic</option>
+          <option value="tr" data-i18n="turkish">Turkish</option>
+        </select>
       </div>
     </div>
+
     <div class="navbar">
       <div class="container">
         <div class="nav-top">
@@ -53,17 +59,20 @@
           </div>
           <div class="nav-top-navbar">
             <ul>
+              <!-- <li>
+                <a href="">Home</a>
+              </li> -->
               <li>
-                <a href="../about/index.html">About</a>
+                <a data-i18n="home1" href="./about/index.html">About</a>
               </li>
               <li>
-                <a href="../products/">Products</a>
+                <a data-i18n="home2" href="./products/index.html">Products</a>
               </li>
               <li>
-                <a href="../services/index.html">Services</a>
+                <a data-i18n="home3" href="./services/index.html">Services</a>
               </li>
               <li>
-                <a href="./index.html">Contact</a>
+                <a data-i18n="home4" href="./contact/index.html">Contact</a>
               </li>
               <select class="lang-selector">
                 <option value="en" data-i18n="english">English</option>
@@ -77,7 +86,7 @@
       </div>
     </div>
     <div class="header">
-      <h1>Contact</h1>
+      <h1 data-i18n="home4">Contact</h1>
     </div>
     <div class="contact-section-wrapper">
       <div class="contact-container">
@@ -86,19 +95,21 @@
             <div class="contact-area">
               <div class="contact-title">
                 <i class="fa-solid fa-location-dot"></i>
-                <h3>Adress</h3>
-                <p>Iscehisar Industrial Area Afyonkarahisar City/TURKEY</p>
+                <h3 data-i18n="contact1">Adress</h3>
+                <p data-i18n="contact1a">
+                  Iscehisar Industrial Area Afyonkarahisar City/TURKEY
+                </p>
               </div>
               <div class="contact-title">
                 <i class="fa-solid fa-envelope"></i>
-                <h3>Email</h3>
+                <h3 data-i18n="contact2">Email</h3>
                 <p>info@durzademarble.com</p>
                 <p>durzademarble@gmail.com</p>
               </div>
               <div class="contact-title">
                 <i class="fa-solid fa-phone"></i>
-                <h3>Phone</h3>
-                <p>+90 545 580 43 33</p>
+                <h3 data-i18n="contact3">Phone</h3>
+                <p data-i18n="contact3a">+90 545 580 43 33</p>
               </div>
             </div>
             <iframe
@@ -126,5 +137,6 @@
       <p>Copyright © 2023</p>
     </div>
     <script src="../public/script.js"></script>
+    <script src="../i18n/translate.js" type="module"></script>
   </body>
 </html>

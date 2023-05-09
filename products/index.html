@@ -16,28 +16,34 @@
     <div class="h-menu-modal">
       <div class="h-menu">
         <i class="fa-solid fa-xmark hm-close"></i>
-        <a href="../index.html">
+        <a href="index.html">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p data-i18n="home5">Home</p>
         </a>
-        <a href="./index.html">
+        <a href="./about/index.html">
           <i class="fa-solid fa-address-card"></i>
-          <p>About</p>
+          <p data-i18n="home1">About</p>
         </a>
-        <a href="../products/index.html">
+        <a href="./products/index.html">
           <i class="fa-solid fa-box"></i>
-          <p>Products</p>
+          <p data-i18n="home2">Products</p>
         </a>
-        <a href="../services/index.html">
+        <a href="./services/index.html">
           <i class="fa-solid fa-handshake"></i>
-          <p>Services</p>
+          <p data-i18n="home3">Services</p>
         </a>
-        <a href="../contact/index.html">
+        <a href="./contact/index.html">
           <i class="fa-solid fa-address-book"></i>
-          <p>Contact</p>
+          <p data-i18n="home4">Contact</p>
         </a>
+        <select class="lang-selector">
+          <option value="en" data-i18n="english">English</option>
+          <option value="ar" data-i18n="arabic">Arabic</option>
+          <option value="tr" data-i18n="turkish">Turkish</option>
+        </select>
       </div>
     </div>
+
     <div class="navbar">
       <div class="container">
         <div class="nav-top">
@@ -53,21 +59,26 @@
           </div>
           <div class="nav-top-navbar">
             <ul>
+              <!-- <li>
+                <a href="">Home</a>
+              </li> -->
               <li>
-                <a href="./index.html">About</a>
+                <a data-i18n="home1" href="./about/index.html">About</a>
               </li>
               <li>
-                <a href="../products/">Products</a>
+                <a data-i18n="home2" href="./products/index.html">Products</a>
               </li>
               <li>
-                <a href="../services/index.html">Services</a>
+                <a data-i18n="home3" href="./services/index.html">Services</a>
               </li>
               <li>
-                <a href="../contact/index.html">Contact</a>
+                <a data-i18n="home4" href="./contact/index.html">Contact</a>
               </li>
-              <div class="lang-btn">
-                <p>Turkish</p>
-              </div>
+              <select class="lang-selector">
+                <option value="en" data-i18n="english">English</option>
+                <option value="ar" data-i18n="arabic">Arabic</option>
+                <option value="tr" data-i18n="turkish">Turkish</option>
+              </select>
             </ul>
           </div>
           <i class="fa-solid fa-bars hm-icon"></i>
@@ -75,58 +86,58 @@
       </div>
     </div>
     <div class="header">
-      <h1>Products</h1>
+      <h1 data-i18n="home2">Products</h1>
     </div>
     <div class="products-section-wrapper">
       <!-- <div class="container"> -->
       <div class="products-section">
         <a href="./marble/index.html" class="home-products-marble home-marble">
-          <h3>Marble</h3>
+          <h3 data-i18n="home11">Marble</h3>
           <div>
-            <p>Lorem</p>
-            <p>ipsum dolor</p>
-            <p>sit amet.</p>
+            <p data-i18n="home12">luxury</p>
+            <p data-i18n="home13">and</p>
+            <p data-i18n="home14">sophisticated</p>
           </div>
         </a>
         <a
           href="./travertine/index.html"
           class="home-products-marble home-travertine"
         >
-          <h3>Travertine</h3>
+          <h3 data-i18n="home15">Travertine</h3>
           <div>
-            <p>Lorem</p>
-            <p>ipsum dolor</p>
-            <p>sit amet.</p>
+            <p data-i18n="home16">elegant</p>
+            <p data-i18n="home13">and</p>
+            <p data-i18n="home17">dramatic</p>
           </div>
         </a>
         <a href="./onyx/index.html" class="home-products-marble home-onyx">
-          <h3>Onyx</h3>
+          <h3 data-i18n="home18">Onyx</h3>
           <div>
-            <p>Lorem</p>
-            <p>ipsum dolor</p>
-            <p>sit amet.</p>
+            <p data-i18n="home19">modern</p>
+            <p data-i18n="home13">and</p>
+            <p data-i18n="home20">stylish</p>
           </div>
         </a>
         <a
           href="./limestone/index.html"
           class="home-products-marble home-limestone"
         >
-          <h3>Limestone</h3>
+          <h3 data-i18n="home21">Limestone</h3>
           <div>
-            <p>Lorem</p>
-            <p>ipsum dolor</p>
-            <p>sit amet.</p>
+            <p data-i18n="home22">artistic</p>
+            <p data-i18n="home13">and</p>
+            <p data-i18n="home23">intricate</p>
           </div>
         </a>
         <a
           href="./granite/index.html"
           class="home-products-marble home-granite"
         >
-          <h3>Granite</h3>
+          <h3 data-i18n="home24">Granite</h3>
           <div>
-            <p>Lorem</p>
-            <p>ipsum dolor</p>
-            <p>sit amet.</p>
+            <p data-i18n="home25">pure</p>
+            <p data-i18n="home13">and</p>
+            <p data-i18n="home26">classic</p>
           </div>
         </a>
         <!-- </div> -->
@@ -144,5 +155,6 @@
       <p>Copyright © 2023</p>
     </div>
     <script src="../public/script.js"></script>
+    <script src="../i18n/translate.js" type="module"></script>
   </body>
 </html>

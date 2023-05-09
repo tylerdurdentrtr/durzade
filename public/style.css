@@ -429,7 +429,9 @@ body {
 }
 
 .home-marble h3,
-.home-marble p {
+.home-marble p,
+.home-granite p,
+.home-granite h3 {
   color: white;
 }
 
@@ -438,15 +440,15 @@ body {
 }
 
 .home-travertine {
-  background-image: url("https://img.freepik.com/premium-photo/beautiful-beige-shade-color-marble-stone-texture-background_9693-2470.jpg");
+  background-image: url("https://marmi.netlify.app/images/marble-photos/travertine/gold-travertine/gallery/1.jpg");
 }
 
 .home-granite {
-  background-image: url("https://images.unsplash.com/photo-1579492450119-80542d516179?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-image: url("https://marmi.netlify.app/images/marble-photos/granite/1.jpg");
 }
 
 .home-limestone {
-  background-image: url("https://images.unsplash.com/photo-1582603314382-6c17dc18aadd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://marmi.netlify.app/images/myra.jpg");
 }
 
 @media screen and (max-width: 645px) {
