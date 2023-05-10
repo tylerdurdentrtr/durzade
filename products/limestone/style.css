@@ -54,6 +54,10 @@
   font-size: 20px;
 }
 
+.home-products-marble h3 {
+  color: black;
+}
+
 @media (max-width: 1120px) {
   .marble-category-row {
     flex-direction: column;

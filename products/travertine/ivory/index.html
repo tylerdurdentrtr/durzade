@@ -27,28 +27,34 @@
     <div class="h-menu-modal">
       <div class="h-menu">
         <i class="fa-solid fa-xmark hm-close"></i>
-        <a href="../../index.html">
+        <a href="index.html">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p data-i18n="home5">Home</p>
         </a>
-        <a href="../../about/index.html">
+        <a href="../../../about/index.html">
           <i class="fa-solid fa-address-card"></i>
-          <p>About</p>
+          <p data-i18n="home1">About</p>
         </a>
-        <a href="../../products/index.html">
+        <a href="../../../products/index.html">
           <i class="fa-solid fa-box"></i>
-          <p>Products</p>
+          <p data-i18n="home2">Products</p>
         </a>
-        <a href="../../services/index.html">
+        <a href="../../../services/index.html">
           <i class="fa-solid fa-handshake"></i>
-          <p>Services</p>
+          <p data-i18n="home3">Services</p>
         </a>
-        <a href="../../contact/index.html">
+        <a href="../../../contact/index.html">
           <i class="fa-solid fa-address-book"></i>
-          <p>Contact</p>
+          <p data-i18n="home4">Contact</p>
         </a>
+        <select class="lang-selector">
+          <option value="en" data-i18n="english">English</option>
+          <option value="ar" data-i18n="arabic">Arabic</option>
+          <option value="tr" data-i18n="turkish">Turkish</option>
+        </select>
       </div>
     </div>
+
     <div class="navbar">
       <div class="container">
         <div class="nav-top">
@@ -68,21 +74,32 @@
           </div>
           <div class="nav-top-navbar">
             <ul>
+              <!-- <li>
+                <a href="">Home</a>
+              </li> -->
               <li>
-                <a href="../../about/index.html">About</a>
+                <a data-i18n="home1" href="../../../about/index.html">About</a>
               </li>
               <li>
-                <a href="../../products/index.html">Products</a>
+                <a data-i18n="home2" href="../../../products/index.html"
+                  >Products</a
+                >
               </li>
               <li>
-                <a href="../../services/index.html">Services</a>
+                <a data-i18n="home3" href="../../../services/index.html"
+                  >Services</a
+                >
               </li>
               <li>
-                <a href="../../contact/index.html">Contact</a>
+                <a data-i18n="home4" href="../../../contact/index.html"
+                  >Contact</a
+                >
               </li>
-              <div class="lang-btn">
-                <p>Turkish</p>
-              </div>
+              <select class="lang-selector">
+                <option value="en" data-i18n="english">English</option>
+                <option value="ar" data-i18n="arabic">Arabic</option>
+                <option value="tr" data-i18n="turkish">Turkish</option>
+              </select>
             </ul>
           </div>
           <i class="fa-solid fa-bars hm-icon"></i>
@@ -90,7 +107,7 @@
       </div>
     </div>
     <div class="header">
-      <h1>Ivory</h1>
+      <h1 data-i18n="ivory1">Ivory</h1>
     </div>
     <div class="marble-type-section-wrapper">
       <div class="marble-type-info-wrapper">
@@ -98,14 +115,14 @@
           <div class="marble-type-info">
             <div class="marble-image">
               <img
-                src="../../../images/products/travertine/ivory/gallery/1.jpg"
+                src="../../../images/products/travertine/ivory/gallery/3.jpg"
                 alt=""
               />
             </div>
             <div class="marble-description">
-              <h1>Description</h1>
+              <h1 data-i18n="granite2">Description</h1>
               <br />
-              <p>
+              <p data-i18n="granite3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vel leo eget sapien imperdiet eleifend. Nullam eu tristique
                 dolor. Donec eget justo augue. Sed convallis in justo sit amet
@@ -115,21 +132,33 @@
               </p>
             </div>
             <div class="marble-sizes">
-              <h1>Available Sizes</h1>
+              <h1 data-i18n="granite4">Available Sizes</h1>
               <br />
-              <p>BLOCKS</p>
-              <p>SLABS</p>
-              <p>60 x 60 x 2cm</p>
-              <p>40 x 60 x 2cm</p>
-              <p>40 x 40 x 2cm</p>
-              <p>30 x 60 x 2cm</p>
-              <p>30 x 30 x 2cm</p>
-              <p>24″ x 24″ x 5/8″(61,0 x 61,0 x 1.5 cm)</p>
-              <p>18″ x 18″ x 1/2″ (45,7 x 45,7 x 1,2 cm)</p>
-              <p>16″ x 24″ x 1/2″ (40,6 x 61,0 x 1,2cm)</p>
-              <p>16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)</p>
-              <p>12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)</p>
-              <p>12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)</p>
+              <p data-i18n="granite5">BLOCKS</p>
+              <p data-i18n="granite6">SLABS</p>
+              <p data-i18n="granite7">60 x 60 x 2cm</p>
+              <p data-i18n="granite8">40 x 60 x 2cm</p>
+              <p data-i18n="granite9">40 x 40 x 2cm</p>
+              <p data-i18n="granite10">30 x 60 x 2cm</p>
+              <p data-i18n="granite11">30 x 30 x 2cm</p>
+              <p data-i18n="granite12">
+                24″ x 24″ x 5/8″(61,0 x 61,0 x 1.5 cm)
+              </p>
+              <p data-i18n="granite13">
+                18″ x 18″ x 1/2″ (45,7 x 45,7 x 1,2 cm)
+              </p>
+              <p data-i18n="granite14">
+                16″ x 24″ x 1/2″ (40,6 x 61,0 x 1,2cm)
+              </p>
+              <p data-i18n="granite15">
+                16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)
+              </p>
+              <p data-i18n="granite16">
+                12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)
+              </p>
+              <p data-i18n="granite17">
+                12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)
+              </p>
             </div>
           </div>
         </div>
@@ -150,7 +179,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Stone</h3>
+                    <h3 data-i18n="ivory2">Stone</h3>
                   </div>
                 </div>
               </div>
@@ -166,7 +195,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Stone</h3>
+                    <h3 data-i18n="ivory3">Stone</h3>
                   </div>
                 </div>
               </div>
@@ -182,7 +211,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Reardon Master Tub</h3>
+                    <h3 data-i18n="ivory4">Reardon Master Tub</h3>
                   </div>
                 </div>
               </div>
@@ -198,7 +227,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Slab</h3>
+                    <h3 data-i18n="ivory5">Slab</h3>
                   </div>
                 </div>
               </div>
@@ -216,7 +245,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Pattern</h3>
+                    <h3 data-i18n="ivory6">Pattern</h3>
                   </div>
                 </div>
               </div>
@@ -232,7 +261,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Pattern</h3>
+                    <h3 data-i18n="ivory7">Pattern</h3>
                   </div>
                 </div>
               </div>
@@ -248,7 +277,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Pattern</h3>
+                    <h3 data-i18n="ivory8">Pattern</h3>
                   </div>
                 </div>
               </div>
@@ -264,7 +293,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Pattern</h3>
+                    <h3 data-i18n="ivory9">Pattern</h3>
                   </div>
                 </div>
               </div>
@@ -282,7 +311,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Garden</h3>
+                    <h3 data-i18n="ivory10">Garden</h3>
                   </div>
                 </div>
               </div>
@@ -298,7 +327,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Pool</h3>
+                    <h3 data-i18n="ivory11">Pool</h3>
                   </div>
                 </div>
               </div>
@@ -314,7 +343,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Bath</h3>
+                    <h3 data-i18n="ivory12">Bath</h3>
                   </div>
                 </div>
               </div>
@@ -330,7 +359,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Stairs</h3>
+                    <h3 data-i18n="ivory13">Stairs</h3>
                   </div>
                 </div>
               </div>
@@ -348,7 +377,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Wall</h3>
+                    <h3 data-i18n="ivory14">Wall</h3>
                   </div>
                 </div>
               </div>
@@ -364,7 +393,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Floor</h3>
+                    <h3 data-i18n="ivory15">Floor</h3>
                   </div>
                 </div>
               </div>
@@ -380,7 +409,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Floor</h3>
+                    <h3 data-i18n="ivory16">Floor</h3>
                   </div>
                 </div>
               </div>
@@ -396,7 +425,7 @@
                     />
                   </div>
                   <div class="pic-text">
-                    <h3 href="">Floor</h3>
+                    <h3 data-i18n="ivory17">Floor</h3>
                   </div>
                 </div>
               </div>
@@ -418,5 +447,6 @@
     </div>
     <script src="../../public/script.js"></script>
     <script src="../../../public/modal.js"></script>
+    <script src="../../../i18n/translate.js" type="module"></script>
   </body>
 </html>

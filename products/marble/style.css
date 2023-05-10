@@ -54,6 +54,16 @@
   font-size: 20px;
 }
 
+.marble-white {
+  background-image: url("../../images/products/marble/white/42-AEGEAN_DALMATIAN-768x768.jpg");
+}
+.marble-grey {
+  background-image: url("../../images/products/marble/grey/ANKARA-GREY-768x769.jpg");
+}
+.marble-beige {
+  background-image: url("../../images/products/marble/beige/antique-beige-6-768x768.jpg");
+}
+
 @media (max-width: 1120px) {
   .marble-category-row {
     flex-direction: column;

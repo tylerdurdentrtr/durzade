@@ -21,28 +21,34 @@
     <div class="h-menu-modal">
       <div class="h-menu">
         <i class="fa-solid fa-xmark hm-close"></i>
-        <a href="../index.html">
+        <a href="index.html">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p data-i18n="home5">Home</p>
         </a>
-        <a href="./index.html">
+        <a href="../../about/index.html">
           <i class="fa-solid fa-address-card"></i>
-          <p>About</p>
+          <p data-i18n="home1">About</p>
         </a>
-        <a href="../products/index.html">
+        <a href="../../products/index.html">
           <i class="fa-solid fa-box"></i>
-          <p>Products</p>
+          <p data-i18n="home2">Products</p>
         </a>
-        <a href="../services/index.html">
+        <a href="../../services/index.html">
           <i class="fa-solid fa-handshake"></i>
-          <p>Services</p>
+          <p data-i18n="home3">Services</p>
         </a>
-        <a href="../contact/index.html">
+        <a href="../../contact/index.html">
           <i class="fa-solid fa-address-book"></i>
-          <p>Contact</p>
+          <p data-i18n="home4">Contact</p>
         </a>
+        <select class="lang-selector">
+          <option value="en" data-i18n="english">English</option>
+          <option value="ar" data-i18n="arabic">Arabic</option>
+          <option value="tr" data-i18n="turkish">Turkish</option>
+        </select>
       </div>
     </div>
+
     <div class="navbar">
       <div class="container">
         <div class="nav-top">
@@ -58,21 +64,30 @@
           </div>
           <div class="nav-top-navbar">
             <ul>
+              <!-- <li>
+                <a href="">Home</a>
+              </li> -->
               <li>
-                <a href="./index.html">About</a>
+                <a data-i18n="home1" href="../../about/index.html">About</a>
               </li>
               <li>
-                <a href="../products/">Products</a>
+                <a data-i18n="home2" href="../../products/index.html"
+                  >Products</a
+                >
               </li>
               <li>
-                <a href="../services/index.html">Services</a>
+                <a data-i18n="home3" href="../../services/index.html"
+                  >Services</a
+                >
               </li>
               <li>
-                <a href="../contact/index.html">Contact</a>
+                <a data-i18n="home4" href="../../contact/index.html">Contact</a>
               </li>
-              <div class="lang-btn">
-                <p>Turkish</p>
-              </div>
+              <select class="lang-selector">
+                <option value="en" data-i18n="english">English</option>
+                <option value="ar" data-i18n="arabic">Arabic</option>
+                <option value="tr" data-i18n="turkish">Turkish</option>
+              </select>
             </ul>
           </div>
           <i class="fa-solid fa-bars hm-icon"></i>
@@ -80,7 +95,7 @@
       </div>
     </div>
     <div class="header">
-      <h1>Marble</h1>
+      <h1 data-i18n="marble1">Marble</h1>
     </div>
     <div class="products-section-wrapper">
       <div class="container">
@@ -88,67 +103,70 @@
           <div class="marble-category-row">
             <a
               href="./white/index.html"
-              class="home-products-marble home-marble"
+              class="home-products-marble marble-white"
             >
-              <h3>White</h3>
+              <h3 data-i18n="marble2">White</h3>
               <div>
-                <p>Lorem</p>
+                <!-- <p>Lorem</p>
                 <p>ipsum dolor</p>
-                <p>sit amet.</p>
+                <p>sit amet.</p> -->
               </div>
             </a>
             <a
               href="./black/index.html"
-              class="home-products-marble home-travertine"
+              class="home-products-marble marble-black"
             >
-              <h3>Black</h3>
+              <h3 data-i18n="marble3">Black</h3>
               <div>
-                <p>Lorem</p>
+                <!-- <p>Lorem</p>
                 <p>ipsum dolor</p>
-                <p>sit amet.</p>
+                <p>sit amet.</p> -->
               </div>
             </a>
-            <a href="./grey/index.html" class="home-products-marble home-onyx">
-              <h3>Grey</h3>
+            <a
+              href="./grey/index.html"
+              class="home-products-marble marble-grey"
+            >
+              <h3 data-i18n="marble4">Grey</h3>
               <div>
-                <p>Lorem</p>
+                <!-- <p>Lorem</p>
                 <p>ipsum dolor</p>
-                <p>sit amet.</p>
+                <p>sit amet.</p> -->
               </div>
             </a>
           </div>
           <div class="marble-category-row">
             <a
               href="./beige/index.html"
-              class="home-products-marble home-limestone"
+              class="home-products-marble marble-beige"
             >
-              <h3>Beige</h3>
+              <h3 data-i18n="marble5">Beige</h3>
               <div>
-                <p>Lorem</p>
+                <!-- <p>Lorem</p>
                 <p>ipsum dolor</p>
-                <p>sit amet.</p>
+                <p>sit amet.</p> -->
               </div>
             </a>
             <a
               href="./boutique/index.html"
-              class="home-products-marble home-granite"
+              class="home-products-marble marble-boutique"
             >
-              <h3>Boutique</h3>
+              <h3 data-i18n="marble6">Boutique</h3>
               <div>
-                <p>Lorem</p>
+                <!-- <p>Lorem</p>
                 <p>ipsum dolor</p>
-                <p>sit amet.</p>
+                <p>sit amet.</p> -->
               </div>
             </a>
             <a
               href="./realistic/index.html"
-              class="home-products-marble home-granite"
+              class="home-products-marble marble-reality"
             >
-              <h3>Reality</h3>
+              <h3 data-i18n="marble7">Reality</h3>
               <div>
-                <p>Lorem</p>
+                <!-- <p>Lorem</p>
                 <p>ipsum dolor</p>
-                <p>sit amet.</p>
+                <p>sit amet.</p> -->
               </div>
             </a>
           </div>
@@ -167,5 +185,6 @@
       <p>Copyright © 2023</p>
     </div>
     <script src="../public/script.js"></script>
+    <script src="../../i18n/translate.js" type="module"></script>
   </body>
 </html>
