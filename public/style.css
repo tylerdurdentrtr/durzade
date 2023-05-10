@@ -465,6 +465,11 @@ body {
   background-image: url("https://marmi.netlify.app/images/myra.jpg");
 }
 
+/* .footer-logo {
+  width: 300px;
+  margin-bottom: 100px;
+} */
+
 @media screen and (max-width: 645px) {
   .modal-image img {
     width: 300px;
