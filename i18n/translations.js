@@ -733,7 +733,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      travertine1: "الغرانيت", // değişecek
+      travertine1: "الحجر الجيري",
       travertine2: "ذهبي",
       travertine3: "عاجي",
       travertine4: "ليلي",
@@ -905,7 +905,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      gold1: "الغرانيت", // değişecek
+      gold1: "ذهبي",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1039,7 +1039,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      ivory1: "الغرانيت", // değişecek
+      ivory1: "عاجي",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1173,7 +1173,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      noche1: "الغرانيت", // değişecek
+      noche1: "ليلي",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1303,7 +1303,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      red1: "الغرانيت", // değişecek
+      red1: "أحمر",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1425,7 +1425,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      scabos1: "الغرانيت", // değişecek
+      scabos1: "سكابوس", // değişecek
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1547,7 +1547,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      silver1: "الغرانيت", // değişecek
+      silver1: "فضي",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1698,7 +1698,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      white0: "الغرانيت", // değişecek
+      white0: "أبيض",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1765,7 +1765,7 @@ const translations = {
       home3: "Hizmetler",
       home4: "İletişim",
       home5: "Ana Sayfa",
-      white0: "Beyaz", // değişebilir
+      white0: "Beyaz",
       granite1: "Onyx",
       granite2: "Açıklama",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -1877,7 +1877,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      grey1: "الغرانيت", // değişecek
+      grey1: "رمادي",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -1917,7 +1917,7 @@ const translations = {
       home3: "Hizmetler",
       home4: "İletişim",
       home5: "Ana Sayfa",
-      grey1: "Gri", // değişebilir
+      grey1: "Gri",
       granite1: "Onyx",
       granite2: "Açıklama",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -2021,7 +2021,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      beige1: "الغرانيت", // değişecek
+      beige1: "بيج",
       granite2: "الوصف",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "الأحجام المتاحة",
@@ -2080,7 +2080,7 @@ const translations = {
       home3: "Hizmetler",
       home4: "İletişim",
       home5: "Ana Sayfa",
-      beige1: "Bej", // değişebilir
+      beige1: "Bej",
       granite2: "Açıklama",
       granite3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       granite4: "Mevcut Boyutlar",
