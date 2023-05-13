@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
-  /* --gold-yellow: rgb(241, 216, 75); */
-  --gold-yellow: rgb(255, 116, 41);
+  /* --gold-yellow: rgb(255, 116, 41); */
   --blue: rgba(93, 93, 255, 0.295);
+  --turquoise-blue: rgb(83, 224, 255);
+  --turquoise-blue-after: rgba(83, 223, 255, 0.44);
+  --gold-yellow: rgb(87, 245, 190);
+  /* --gold-yellow: rgb(241, 216, 75); */
+  --white: white;
 }
 
 * {
@@ -25,7 +29,9 @@ body {
 }
 
 .btn {
-  background-color: var(--gold-yellow);
+  /* background-color: var(--gold-yellow); */
+  background-color: rgb(238, 115, 2);
+  /* background-color: rgb(255, 215, 0); */
   padding: 7px 50px;
   border-radius: 20px;
   display: inline-block;
@@ -54,10 +60,6 @@ body {
   align-items: center;
   /* text-align: center; */
   /* padding: 0 100px; */
-}
-
-.sec p {
-  padding: 50px 0;
 }
 
 .nav-top-wrapper,
@@ -133,7 +135,7 @@ body {
 }
 
 .header {
-  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"); */
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -142,6 +144,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(36, 45, 124);
 }
 
 .header::after {
@@ -151,7 +154,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(38, 133, 124, 0.593);
+  /* background-color: var(--turquoise-blue-after); */
 }
 
 .header h1 {
@@ -163,7 +166,12 @@ body {
 }
 
 .footer {
-  background-color: var(--gold-yellow);
+  /* background-color: var(--gold-yellow); */
+  /* background-color: var(--turquoise-blue); */
+  /* background-color: rgb(31, 179, 132); */
+  /* background-color: var(--gold-yellow); */
+  background-color: rgb(238, 115, 2);
+  /* background-color: rgb(255, 215, 0); */
   display: flex;
   align-items: center;
   flex-direction: column;

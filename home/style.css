@@ -19,6 +19,9 @@
   /* background-color: red; */
 }
 
+/* background-color: rgba(38, 133, 124, 0.26); */
+/* background-color: var(--blue); */
+
 .home-image::after {
   content: "";
   position: absolute;
@@ -26,9 +29,26 @@
   height: 100%;
   top: 0;
   left: 0;
-  /* background-color: rgba(38, 133, 124, 0.26); */
-  background-color: var(--blue);
+  background-color: rgba(0, 0, 0, 0.177);
 }
+
+/* .home-arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 400px;
+  position: absolute;
+  z-index: 10000;
+  top: 300px;
+  background-color: red;
+}
+
+.home-arrows i {
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  background-color: red;
+} */
 
 .home-header {
   display: flex;
@@ -83,7 +103,10 @@ a {
 }
 
 .home-about {
-  background-color: var(--gold-yellow);
+  /* background-color: var(--gold-yellow); */
+  background-color: rgb(238, 115, 2);
+  /* background-color: rgb(255, 215, 0); */
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,6 +129,7 @@ a {
 .home-projects-wrapper {
   /* background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg"); */
   background-color: var(--gold-yellow);
+  /* background-color: yellow; */
 }
 
 .home-projects {
@@ -273,7 +297,13 @@ a {
   justify-content: center;
   gap: 20px;
   align-items: center;
-  background-color: var(--blue);
+  /* background-color: rgb(15, 255, 231); */
+  /* background-color: rgb(83, 224, 255); */
+  /* --turquoise-blue-after: rgba(83, 223, 255, 0.44); */
+  background-color: rgb(36, 45, 124);
+  /* background-color: rgb(36, 45, 124); */
+  /* background-color: var(--gold-yellow); */
+  /* background-color: var(--); */
   padding: 25px 0;
 }
 
@@ -298,15 +328,25 @@ a {
   align-items: center;
   padding: 25px;
   border-radius: 5px;
+  /* background-color: rgb(54, 54, 54); */
+  /* background-image: url("https://www.d-stylemarble.com/assets/images/support3.jpeg"); */
+  background-clip: unset;
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.back p {
+.front p,
+.back p,
+.front h1,
+.back h1 {
+  color: black;
+}
+
+/* .back p {
   color: black;
   text-align: center;
-}
+} */
 
 .front {
   transform: rotateY(0deg); /* Ön yüz varsayılan dönüşümü */
@@ -346,6 +386,8 @@ a {
 
 .home-section-marble-wrapper {
   background-image: url("https://img.freepik.com/premium-vector/volume-abstract-white-background-texture-with-diagonal-lines-squares_47243-1567.jpg");
+  /* background-image: url("https://storage.needpix.com/rsynced_images/quatrefoil-pattern-background-blue.jpg"); */
+  /* background-image: url("https://img.freepik.com/free-vector/decorative-pattern-background-teal-colour_1048-6592.jpg"); */
 }
 
 .hsm-container {

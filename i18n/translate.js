@@ -2,6 +2,8 @@ import translations from "./translations.js";
 
 let titleElement = document.querySelector("head title");
 
+let arabics = document.querySelectorAll(".about-area p");
+
 let page = titleElement.textContent.toLowerCase();
 
 if (page === "durzade") page = "home";
@@ -27,6 +29,16 @@ const setLanguage = (language) => {
   elements.forEach((element) => {
     const translationKey = element.getAttribute("data-i18n");
     element.textContent = translations[page][language][translationKey];
+  });
+
+  console.log(language);
+
+  arabics.forEach((arabic) => {
+    if (language === "ar") {
+      arabic.style.fontSize = "25px";
+    } else {
+      arabic.style.fontSize = "17px";
+    }
   });
 
   document.dir = language === "ar" ? "rtl" : "ltr";

@@ -3,13 +3,22 @@
   /* text-align: center; */
 }
 
-.about-section p {
+.about-area {
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  padding: 20px;
   border-radius: 10px;
+  padding: 25px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+
+.about-area p {
+  font-size: 17px;
+}
+
+/* .about-section p {
+} */
 
 @media (max-width: 850px) {
   .about-section {
