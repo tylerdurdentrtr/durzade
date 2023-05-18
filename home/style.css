@@ -50,17 +50,24 @@
   background-color: red;
 } */
 
+.home-wrapper {
+  background-color: rgba(255, 255, 255, 0.898);
+  width: 100%;
+  margin-top: 25px;
+}
+
 .home-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-inline: 20px;
   position: relative;
   z-index: 10;
+  /* margin-top: 25px; */
   /* gap: 500px; */
   /* background-color: red; */
-  /* padding: ; */
+  /* padding: 10px; */
 }
 
 .home-header i {
@@ -71,6 +78,8 @@
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: bold;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .home-header-nav ul {
@@ -429,6 +438,7 @@ a {
   color: white;
   font-size: 20px;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 /*  */
