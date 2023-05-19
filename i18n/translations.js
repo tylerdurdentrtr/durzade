@@ -149,9 +149,18 @@ const translations = {
       home5: "Home",
       about1: "About",
       about2:
-        "Durzade Marble, founded by Hamza Dur in 2012, is a longstanding company that has proven itself in the marble industry. With our focus on customer satisfaction and quality workmanship, we have successfully made a name for ourselves in the sector. Our main goals as Durzade Marble are to provide our customers with the highest quality products and services, meet their needs, and support their projects. Our customers always leave satisfied thanks to our experienced team, quality materials, and best price guarantee. As Durzade Marble, we work to be with you at every stage of your projects and provide you with the most appropriate solutions for your needs. If you are looking for a quality and reliable business partner in the construction industry, you can contact us. As the Durzade Marble team, we will be happy to answer any questions you may have. Durzade Marble: A Longstanding Company that Stands Out with Quality Workmanship and Customer Satisfaction' This title emphasizes your company's years of experience in the industry, your focus on customer satisfaction, and your quality workmanship. Additionally, the phrase 'longstanding company' in the title also indicates your company's reliability in the industry.",
+        "Durzâde Marble, which has been sharing its knowledge, experience, and expertise gained in commercial life since 2005 without compromising trust and stability, has a deep-rooted history and extensive commercial experience. With the ability to export to all countries worldwide and the aim of sharing its accumulated knowledge with the industry while providing customer-oriented satisfaction, Durzâde Marble always operates with a results-oriented approach.",
       about3:
-        "Durzade Marble, founded by Hamza Dur in 2012 to engage in commerce, provides reliable services to its customers with its long-standing experience and rooted history in the industry. Thanks to our customer-oriented approach and high-quality workmanship, we have achieved a respectable position in the sector. Providing our customers with the highest quality products and services, meeting their needs, and supporting their projects are among our core goals as Durzade Marble. With our experienced team, high-quality materials, and best-price guarantee, our customers always leave satisfied. We work to be by your side in every stage of your projects and offer you the most accurate solutions to your needs. If you are looking for a reliable and high-quality business partner in the construction sector, you can contact us. As the Durzade Marble team, we will be happy to answer any questions you may have. Durzade Marble: 'A Reliable Company Bringing Our Commerce Experience to the Marble Industry.' This title emphasizes your company's experience in commerce and its transition to the sector. Additionally, the phrase 'reliable company' in the title indicates your company's business approach and the importance you give to your customers.",
+        "We have achieved a prestigious position in the industry through our customer satisfaction-oriented work and quality craftsmanship.",
+      about4: "In addition,",
+      about5:
+        "One of our main goals is to meet our customers' needs and support their projects by offering them the highest quality products and services.",
+      about6:
+        "Durzâde Marble has successfully come this far as a potential leader in the industry thanks to our experienced team, quality materials, and communication based on mutual trust.",
+      about7:
+        "We are constantly progressing towards the future by being by your side in every stage of your projects and providing the most appropriate solutions to your needs in the ever-evolving construction sector, improving both our technological infrastructure and commercial experience.",
+      about8:
+        "As Durzâde Marble, along with our entire team, we would be delighted to have you among us and meet your needs in this industry.",
     },
 
     ar: {
@@ -165,9 +174,18 @@ const translations = {
       home5: "الصفحة الرئيسية",
       about1: "حول",
       about2:
-        'درزاده مرمر، التي تأسست عام ٢٠١٢ من قبل حمزة دور، هي شركة عريقة في صناعة الرخام والتي أثبتت جدارتها في القطاع. مع التركيز على رضا العملاء والحرفية العالية، تمكنا بنجاح من بناء اسم لنا في القطاع. أهدافنا الرئيسية كشركة درزاده مرمر هي توفير منتجات وخدمات عالية الجودة لعملائنا، وتلبية احتياجاتهم، ودعم مشاريعهم. عملاؤنا دائمًا ما يتركون راضين بفضل فريقنا ذو الخبرة، والمواد ذات الجودة العالية، وضمان أفضل الأسعار. كشركة درزاده مرمر، نعمل على أن نكون معكم في كل مرحلة من مشاريعكم وتزويدكم بالحلول الأنسب لاحتياجاتكم. إذا كنت تبحث عن شريك عمل ذو جودة وموثوقية في صناعة البناء، يمكنك الاتصال بنا. كفريق درزاده مرمر، سنكون سعداء للإجابة على أي أسئلة قد تكون لديكم. درزاده مرمر: شركة عريقة تتميز بالحرفية العالية ورضا العملاء. يؤكد هذا العنوان سنوات خبرة شركتكم في الصناعة، وتركيزكم على رضا العملاء، وحرفيتكم العالية. بالإضافة إلى ذلك، يشير عبا"شركة عريقة" في العنوان إلى مصداقية شركتكم في الصناعة.',
+        "منذ عام ٢٠٠٥ ونحن ننقل المعرفة والخبرة والتجارب التي اكتسبناها في الحياة التجارية بكل ثقة واستقرار من خلال شركة دورزادي ميرمر. نحن دائماً نتحرك بتوجه نحو النتائج ونمتلك خبرة تجارية عميقة وتاريخ قديم يمكننا من خلاله تصدير منتجاتنا إلى جميع دول العالم. تأسست شركتنا لتبادل تلك المعرفة والتجارب مع الصناعة وتقديم خدمة مبنية على رضا العملاء.",
       about3:
-        'دورزادي ماربل هي شركة تأسست على يد حمزة دور في عام ٢٠١٢ للتعامل في مجال التجارة، وتقدم خدمات موثوقة لعملائها بفضل خبرتها الطويلة الأمد وتاريخها الجذري في الصناعة. بفضل نهجنا القائم على العملاء والحرفية عالية الجودة، حققنا موقفًا محترمًا في القطاع. تقديم منتجات وخدمات عالية الجودة لعملائنا وتلبية احتياجاتهم ودعم مشاريعهم هي من بين أهدافنا الأساسية كـ دورزادي ماربل. مع فريقنا ذو الخبرة والمواد عالية الجودة وضمان أفضل الأسعار، يترك عملاؤنا دائمًا راضين. نعمل على التواجد بجانبك في كل مرحلة من مشاريعك وتقديم أكثر الحلول دقة لاحتياجاتك. إذا كنت تبحث عن شريك تجاري موثوق وعالي الجودة في قطاع البناء، يمكنك الاتصال بنا. كفريق دورزادي ماربل، سنكون سعداء للإجابة على أي أسئلة قد تكون لديك. دورزادي ماربل: "شركة موثوقة تجلب خبرتنا التجارية إلى صناعة الرخام." يؤكد هذا العنوان خبرة شركتكم في التجارة وانتقالها إلى القطاع. بالإضافة إلى ذلك، يشير عبارة "شركة موثوقة" في العنوان إلى نهج شركتكم التجاري وأهمية ما تولونه لعملائكم.',
+        "نحن نحظى بمكانة مرموقة في الصناعة بفضل أعمالنا التي تركز على رضا العملاء وحرفيتنا عالية الجودة.",
+      about4: "بالإضافة إلى ذلك،",
+      about5:
+        "من بين أهدافنا الرئيسية هي تلبية احتياجات عملائنا ودعم مشاريعهم من خلال تقديم أفضل المنتجات والخدمات.",
+      about6:
+        "تمكنت شركة دورزادي ميرمر من الوصول بنجاح إلى مركز رائد في الصناعة بفضل فريقنا ذو الخبرة وموادنا ذات الجودة العالية والتواصل القائم على الثقة المتبادلة.",
+      about7:
+        "نحن نتقدم باستمرار نحو المستقبل من خلال التواجد بجانبكم في جميع مراحل مشاريعكم وتقديم الحلول الأنسب لاحتياجاتكم في قطاع البناء المتطور باستمرار، وذلك عن طريق تحسين البنية التحتية التكنولوجية لدينا وخبرتنا التجارية.",
+      about8:
+        "بصفتنا شركة دورزادي ميرمر، فإننا نسعد برؤيتكم بيننا وتلبية احتياجاتكم في هذه الصناعة.",
     },
 
     tr: {
@@ -181,9 +199,18 @@ const translations = {
       home5: "Ana Sayfa",
       about1: "Hakkında",
       about2:
-        "Hamza Dur tarafından 2012 yılında kurulan Durzade Mermer, mermer sektöründe uzun yıllardır faaliyet gösteren köklü bir firma olarak kendini kanıtlamıştır. Müşteri memnuniyetini esas alan çalışmalarımız ve kaliteli işçiliğimiz sayesinde, sektörde adımızı başarıyla duyurduk. Müşterilerimize en kaliteli ürünleri ve hizmetleri sunmak, onların ihtiyaçlarını karşılamak ve projelerine destek olmak Durzade Mermer olarak temel hedeflerimiz arasında yer almaktadır. Müşterilerimiz, tecrübeli ekibimiz, kaliteli malzemelerimiz ve en uygun fiyat garantimiz sayesinde her zaman memnuniyetle ayrılmaktadırlar. Durzade Mermer olarak, projelerinizin her aşamasında yanınızda olmak, ihtiyaçlarınıza en doğru çözümleri sunmak için çalışmaktayız. Siz de inşaat sektöründe kaliteli ve güvenilir bir iş ortağı arıyorsanız, bizimle iletişime geçebilirsiniz. Durzade Mermer ekibi olarak, her türlü sorunuzu yanıtlamaktan mutluluk duyacağız.Durzade Mermer: Kaliteli İşçilik ve Müşteri Memnuniyetiyle Öne Çıkan Köklü Bir Firma' Bu başlık, firmanızın sektördeki uzun yıllara dayanan deneyimini, müşteri memnuniyetini esas alan çalışmalarınızı ve kaliteli işçiliğinizi vurgulamaktadır. Ayrıca, başlıktaki 'köklü bir firma' ifadesi, firmanızın sektördeki güvenilirliğine de işaret etmektedir.Durzade Mermer: Kaliteli İşçilik ve Müşteri Memnuniyetiyle Öne Çıkan Köklü Bir Firma",
+        "2005 yılından beri ticari hayatta edindiğimiz bilgi, deneyim ve tecrübelerimizi güven ve istikrardan ödün vermeden aktardığımız Durzâde Mermer, daima sonuç odaklı hareket eden ve uzun yıllara dayananan ticari deneyimi, köklü geçmişiyle beraber, dünyanın bütün ülkelerine ihracat yapabilme kapasitesine sahiptir ve bütün birikimlerini sektörle paylaşmak aynı zamanda müşterilerine memnuniyet odaklı bir hizmet sunmak amacıyla kurulmuştur.",
       about3:
-        "Hamza Dur tarafından 2012 yılında ticaretle uğraşmak amacıyla kurulan Durzâde Mermer, sektörde uzun yıllara dayanan deneyimi ve köklü geçmişi ile müşterilerine güvenilir hizmetler sunmaktadır. Müşteri memnuniyetini esas alan çalışmalarımız ve kaliteli işçiliğimiz sayesinde sektörde saygın bir konuma sahip olmuş bulunmaktayız. Müşterilerimize en kaliteli ürünleri ve hizmetleri sunarak onların ihtiyaçlarını karşılamak ve projelerine destek olmak, Durzâde Mermer olarak temel hedeflerimiz arasında yer almaktadır. Tecrübeli ekibimiz, kaliteli malzemelerimiz ve en uygun fiyat garantimiz sayesinde müşterilerimiz her zaman memnuniyetle ayrılmaktadırlar. Projelerinizin her aşamasında sizin yanınızda olmak, ihtiyaçlarınıza en doğru çözümleri sunmak için çalışmaktayız. Siz de inşaat sektöründe güvenilir ve kaliteli bir iş ortağı arıyorsanız, bizimle iletişime geçebilirsiniz. Durzâde Mermer ekibi olarak, her türlü sorunuzu yanıtlamaktan mutluluk duyacağız. Durzâde Mermer: “Ticaretteki Tecrübemizi Mermer Sektörüne Taşıyan Güvenilir Firma”Bu başlık, firmanızın ticaretteki deneyimini ve sektöre geçiş hikayesini vurgulamaktadır. Ayrıca, başlıktaki 'güvenilir firma' ifadesi, firmanızın iş yapış şekline ve müşterilerinize verdiği öneme işaret etmektedir.",
+        "Müşteri memnuniyetini esas alan çalışmalarımız ve kaliteli işçiliğimiz sayesinde sektörde saygın bir konuma sahip olmuş bulunmaktayız.",
+      about4: "Bununla birlikte;",
+      about5:
+        " Müşterilerimize en kaliteli ürünleri ve hizmetleri sunarak onların ihtiyaçlarını karşılamak ve projelerine destek olmak, temel hedeflerimiz arasında yer almaktadır.",
+      about6:
+        "Durzâde Mermer, tecrübeli ekibimiz, kaliteli malzemelerimiz ve karşılıklı güvene dayanan iletişimimiz sayesinde, sektörde lider olmaya aday olarak günümüze kadar başarıyla gelmiştir.",
+      about7:
+        " Projelerinizin her aşamasında yanınızda olarak ve ihtiyaçlarınıza en doğru çözümleri üretip gerçekleştirerek, sürekli gelişen inşaat sektöründe, gerek teknolojik alt yapımızı ve gerekse ticari deneyimimizi geliştirerek geleceğe doğru emin adımlarla ilerlemekteyiz.",
+      about8:
+        "Durzâde Mermer olarak bütün ekibimizle birlikte sizleri de aramızda görmekten ve bu sektördeki ihtiyaçlarınızı karşılamaktan büyük mutluluk duyarız.",
     },
   },
   products: {
