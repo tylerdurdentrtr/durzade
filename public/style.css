@@ -425,12 +425,7 @@ body {
   margin-left: 100px;
 }
 
-.lang-selector {
-  /* background-color: red; */
-
-  padding: 5px 10px;
-  border-radius: 5px;
-}
+/*  */
 
 .home-marble {
   background-image: url("https://i.pinimg.com/originals/b1/af/c9/b1afc976a2cf40e108bec15f8b98ab61.jpg");
@@ -477,6 +472,16 @@ body {
   width: 300px;
   margin-bottom: 100px;
 } */
+
+.lang-selector {
+  border: none;
+  outline: none;
+  padding: 7px 10px;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 5px;
+}
 
 @media screen and (max-width: 645px) {
   .modal-image img {
