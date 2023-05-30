@@ -21,54 +21,72 @@
     <div class="h-menu-modal">
       <div class="h-menu">
         <i class="fa-solid fa-xmark hm-close"></i>
-        <a href="../../index.html">
+        <a href="index.html">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p data-i18n="home5">Home</p>
         </a>
-        <a href="../../index.html">
+        <a href="../../../about/index.html">
           <i class="fa-solid fa-address-card"></i>
-          <p>About</p>
+          <p data-i18n="home1">About</p>
         </a>
-        <a href="../../products/index.html">
+        <a href="../../../products/index.html">
           <i class="fa-solid fa-box"></i>
-          <p>Products</p>
+          <p data-i18n="home2">Products</p>
         </a>
-        <a href="../../services/index.html">
+        <a href="../../../services/index.html">
           <i class="fa-solid fa-handshake"></i>
-          <p>Services</p>
+          <p data-i18n="home3">Services</p>
         </a>
-        <a href="../../contact/index.html">
+        <a href="../../../contact/index.html">
           <i class="fa-solid fa-address-book"></i>
-          <p>Contact</p>
+          <p data-i18n="home4">Contact</p>
         </a>
+        <select class="lang-selector">
+          <option value="en" data-i18n="english">English</option>
+          <option value="ar" data-i18n="arabic">Arabic</option>
+          <option value="tr" data-i18n="turkish">Turkish</option>
+        </select>
       </div>
     </div>
     <div class="navbar">
       <div class="container">
         <div class="nav-top">
           <div class="nav-top-logo">
-            <a href="../../index.html">
+            <a href="../../../index.html">
               <img
                 class="logo-amblem"
-                src="../../images/logo/logo2.png"
+                src="../../../images/logo/logo2.png"
                 alt=""
               />
-              <img class="logo-text" src="../../images/logo/logo3.png" alt="" />
+              <img
+                class="logo-text"
+                src="../../../images/logo/logo3.png"
+                alt=""
+              />
             </a>
           </div>
           <div class="nav-top-navbar">
             <ul>
+              <!-- <li>
+                <a href="">Home</a>
+              </li> -->
               <li>
-                <a href="../../index.html">About</a>
+                <a data-i18n="home1" href="../../../about/index.html">About</a>
               </li>
               <li>
-                <a href="../../products/">Products</a>
+                <a data-i18n="home2" href="../../../products/index.html"
+                  >Products</a
+                >
               </li>
               <li>
-                <a href="../../services/index.html">Services</a>
+                <a data-i18n="home3" href="../../../services/index.html"
+                  >Services</a
+                >
               </li>
               <li>
-                <a href="../../contact/index.html">Contact</a>
+                <a data-i18n="home4" href="../../../contact/index.html"
+                  >Contact</a
+                >
               </li>
               <select class="lang-selector">
                 <option value="en" data-i18n="english">English</option>
@@ -82,7 +100,7 @@
       </div>
     </div>
     <div class="header">
-      <h1>Limestone</h1>
+      <h1 data-i18n="limestone1">Limestone</h1>
     </div>
     <div class="products-section-wrapper">
       <div class="container">
@@ -92,56 +110,36 @@
               href="./limra/index.html"
               class="home-products-marble limestone-limra"
             >
-              <h3>Limra</h3>
-              <div>
-                <!-- <p>Lorem</p>
-                <p>ipsum dolor</p>
-                <p>sit amet.</p> -->
-              </div>
+              <h3 data-i18n="limestone2">Limra</h3>
+              <div></div>
             </a>
             <a
               href="./myra/index.html"
               class="home-products-marble limestone-myra"
             >
-              <h3>Myra</h3>
-              <div>
-                <!-- <p>Lorem</p>
-                <p>ipsum dolor</p>
-                <p>sit amet.</p> -->
-              </div>
+              <h3 data-i18n="limestone3">Myra</h3>
+              <div></div>
             </a>
             <a
               href="./rustic-green/index.html"
               class="home-products-marble limestone-rustic"
             >
-              <h3>Rustic Green</h3>
-              <div>
-                <!-- <p>Lorem</p>
-                <p>ipsum dolor</p>
-                <p>sit amet.</p> -->
-              </div>
+              <h3 data-i18n="limestone4">Rustic Green</h3>
+              <div></div>
             </a>
             <a
               href="./salem-gold/index.html"
               class="home-products-marble limestone-salem-gold"
             >
-              <h3>Salem Gold</h3>
-              <div>
-                <!-- <p>Lorem</p>
-                <p>ipsum dolor</p>
-                <p>sit amet.</p> -->
-              </div>
+              <h3 data-i18n="limestone5">Salem Gold</h3>
+              <div></div>
             </a>
             <a
               href="./seabed/index.html"
               class="home-products-marble limestone-seabed"
             >
-              <h3>Seabed</h3>
-              <div>
-                <!-- <p>Lorem</p>
-                <p>ipsum dolor</p>
-                <p>sit amet.</p> -->
-              </div>
+              <h3 data-i18n="limestone6">Seabed</h3>
+              <div></div>
             </a>
           </div>
         </div>
@@ -158,6 +156,8 @@
         <i class="fa-brands fa-instagram"></i>
       </div>
     </div>
-    <script src="../public/script.js"></script>
+    <script src="../../public/script.js"></script>
+    <!-- <script src="../public/script.js"></script> -->
+    <script src="../../i18n/translate.js" type="module"></script>
   </body>
 </html>

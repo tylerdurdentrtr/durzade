@@ -7,6 +7,8 @@ let arabics = document.querySelectorAll(".about-area p");
 let page = titleElement.textContent.toLowerCase();
 
 if (page === "durzade") page = "home";
+if (page == "salem gold") page = "salemGold";
+if (page == "rustic green") page = "rusticGreen";
 
 console.log(page);
 

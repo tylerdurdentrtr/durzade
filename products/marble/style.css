@@ -68,6 +68,10 @@
   background-image: url("../../images/products/marble/boutique/emperador-dark/kapak.jpg");
 }
 
+.marble-boutique h3 {
+  color: white;
+}
+
 .marble-black {
   background-image: url("../../images/products/marble/black/alexander-black/bmblack\(1\).jpg");
 }
