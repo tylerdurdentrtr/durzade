@@ -55,25 +55,25 @@
 }
 
 .marble-white {
-  background-image: url("../../images/products/marble/white/42-AEGEAN_DALMATIAN-768x768.jpg");
+  background-image: url("../../images/products/marble/white/calacatta-manhattan/41-uludagwhite.jpg");
 }
 .marble-grey {
-  background-image: url("../../images/products/marble/grey/ANKARA-GREY-768x769.jpg");
+  background-image: url("../../images/products/marble/grey/tundra-blue/IMG_7373.JPG");
 }
 .marble-beige {
-  background-image: url("../../images/products/marble/beige/antique-beige-6-768x768.jpg");
+  background-image: url("../../images/products/marble/beige/botticino/white-beige.jpg");
+}
+
+.marble-boutique {
+  background-image: url("../../images/products/marble/boutique/emperador-dark/kapak.jpg");
 }
 
 .marble-black {
-  background-image: url("../../images/products/marble/black/bmblack.jpg");
+  background-image: url("../../images/products/marble/black/alexander-black/bmblack\(1\).jpg");
 }
 
 .marble-black h3 {
   color: white;
-}
-
-.marble-boutique {
-  background-image: url("../../images/products/marble/boutique/kapak.jpg");
 }
 
 @media (max-width: 1120px) {

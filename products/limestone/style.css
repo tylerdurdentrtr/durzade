@@ -58,6 +58,22 @@
   color: black;
 }
 
+.limestone-limra {
+  background-image: url("../../images/products/limestone/limra/limra.png");
+}
+.limestone-myra {
+  background-image: url("../../images/products/limestone/myra/myra.jpg");
+}
+.limestone-rustic {
+  background-image: url("../../images/products/limestone/rustic-green/rustic-green2.jpg");
+}
+.limestone-salem-gold {
+  background-image: url("../../images/products/limestone/salem-gold/salem-gold2.jpg");
+}
+.limestone-seabed {
+  background-image: url("../../images/products/limestone/seabed/seabed.jpg");
+}
+
 @media (max-width: 1120px) {
   .marble-category-row {
     flex-direction: column;
