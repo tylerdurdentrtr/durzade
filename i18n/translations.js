@@ -2643,7 +2643,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      limra2: "",
+      limra2: "Limra",
     },
     ar: {
       english: "الإنجليزية",
@@ -2654,7 +2654,7 @@ const translations = {
       home3: "خدمات",
       home4: "اتصل",
       home5: "الصفحة الر",
-      limra1: "حجر الكلس",
+      limra1: "ليمرا",
       granite2: "الوصف",
       granite3:
         "تُعرف رخام ليمرا بلونه الأبيض الفريد وتركيبته المتجانسة. يقدم مظهرًا أنيقًا وراقيًا. يضفي لونه الأبيض الانتعاش والإشراق على الفضاءات الداخلية. كما يُفضّل أيضًا لتطبيقات الواجهات الخارجية.",
@@ -2672,7 +2672,7 @@ const translations = {
       granite15: "١٦ × ١٦ × ١/٢ بوصة (٤٠٫٦ × ٤٠٫٦ × ١٫٢ سم)",
       granite16: "١٢ × ٢٤ × ١/٢ بوصة (٣٠٫٥ × ٦١٫٠ × ١٫٢ سم)",
       granite17: "١٢ × ١٢ × ١/٢ بوصة (٣٠٫٥ × ٣٠٫٥ × ١٫٢ سم)",
-      limra2: "بيج قديم",
+      limra2: "ليمرا",
     },
     tr: {
       english: "İngilizce",
@@ -2701,7 +2701,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      limra2: "Antik Bej",
+      limra2: "Limra",
     },
   },
 
@@ -2733,7 +2733,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      myra2: "",
+      myra2: "Myra",
     },
     ar: {
       english: "الإنجليزية",
@@ -2762,7 +2762,7 @@ const translations = {
       granite15: "١٦ × ١٦ × ١/٢ بوصة (٤٠٫٦ × ٤٠٫٦ × ١٫٢ سم)",
       granite16: "١٢ × ٢٤ × ١/٢ بوصة (٣٠٫٥ × ٦١٫٠ × ١٫٢ سم)",
       granite17: "١٢ × ١٢ × ١/٢ بوصة (٣٠٫٥ × ٣٠٫٥ × ١٫٢ سم)",
-      myra2: "بيج قديم",
+      myra2: "ميرا",
     },
     tr: {
       english: "İngilizce",
@@ -2791,7 +2791,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      myra2: "Antik Bej",
+      myra2: "Myra",
     },
   },
 
@@ -2823,7 +2823,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      rusticGreen2: "",
+      rusticGreen2: "Rustic Green",
     },
     ar: {
       english: "الإنجليزية",
@@ -2852,7 +2852,7 @@ const translations = {
       granite15: "١٦ × ١٦ × ١/٢ بوصة (٤٠٫٦ × ٤٠٫٦ × ١٫٢ سم)",
       granite16: "١٢ × ٢٤ × ١/٢ بوصة (٣٠٫٥ × ٦١٫٠ × ١٫٢ سم)",
       granite17: "١٢ × ١٢ × ١/٢ بوصة (٣٠٫٥ × ٣٠٫٥ × ١٫٢ سم)",
-      rusticGreen2: "بيج قديم",
+      rusticGreen2: "أخضر ريفي",
     },
     tr: {
       english: "İngilizce",
@@ -2881,7 +2881,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      rusticGreen2: "Antik Bej",
+      rusticGreen2: "Rustik Yeşil",
     },
   },
 
@@ -2913,7 +2913,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      salemGold2: "",
+      salemGold2: "Salem Gold",
     },
     ar: {
       english: "الإنجليزية",
@@ -2942,7 +2942,7 @@ const translations = {
       granite15: "١٦ × ١٦ × ١/٢ بوصة (٤٠٫٦ × ٤٠٫٦ × ١٫٢ سم)",
       granite16: "١٢ × ٢٤ × ١/٢ بوصة (٣٠٫٥ × ٦١٫٠ × ١٫٢ سم)",
       granite17: "١٢ × ١٢ × ١/٢ بوصة (٣٠٫٥ × ٣٠٫٥ × ١٫٢ سم)",
-      salemGold2: "بيج قديم",
+      salemGold2: "سالم جولد",
     },
     tr: {
       english: "İngilizce",
@@ -2971,7 +2971,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      salemGold2: "Antik Bej",
+      salemGold2: "Salem Altın",
     },
   },
 
@@ -3003,7 +3003,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      seabed2: "",
+      seabed2: "Seabed",
     },
     ar: {
       english: "الإنجليزية",
@@ -3032,7 +3032,7 @@ const translations = {
       granite15: "١٦ × ١٦ × ١/٢ بوصة (٤٠٫٦ × ٤٠٫٦ × ١٫٢ سم)",
       granite16: "١٢ × ٢٤ × ١/٢ بوصة (٣٠٫٥ × ٦١٫٠ × ١٫٢ سم)",
       granite17: "١٢ × ١٢ × ١/٢ بوصة (٣٠٫٥ × ٣٠٫٥ × ١٫٢ سم)",
-      seabed2: "بيج قديم",
+      seabed2: "قاع البحر",
     },
     tr: {
       english: "İngilizce",
@@ -3061,7 +3061,7 @@ const translations = {
       granite15: "16″ x 16″ x 1/2″ (40,6 x 40,6 x 1,2cm)",
       granite16: "12″ x 24″ x 1/2″ (30,5 x 61,0 x 1,2cm)",
       granite17: "12″ x 12″ x 1/2″ (30,5 x 30,5 x 1,2cm)",
-      seabed2: "Antik Bej",
+      seabed2: "Deniz Yatağı",
     },
   },
 };
