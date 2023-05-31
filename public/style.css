@@ -483,6 +483,7 @@ body {
 
 .wp-button {
   position: fixed;
+  z-index: 100;
   right: 20px;
   bottom: 20px;
   width: 50px;
