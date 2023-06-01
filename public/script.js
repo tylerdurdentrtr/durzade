@@ -10,7 +10,7 @@ function showNavTop() {
   } else {
     navTop.style.display = "none";
   }
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
 }
 
 function openHmMenu() {

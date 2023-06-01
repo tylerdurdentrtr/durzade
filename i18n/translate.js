@@ -10,7 +10,7 @@ if (page === "durzade") page = "home";
 if (page == "salem gold") page = "salemGold";
 if (page == "rustic green") page = "rusticGreen";
 
-console.log(page);
+// console.log(page);
 
 const languageSelectors = document.querySelectorAll(".lang-selector");
 // const options = document.querySelectorAll(".lang-selector options");
@@ -52,7 +52,7 @@ const setLanguage = (language) => {
     element.textContent = translations[page][language][translationKey];
   });
 
-  console.log(language);
+  // console.log(language);
 
   arabics.forEach((arabic) => {
     if (language === "ar") {

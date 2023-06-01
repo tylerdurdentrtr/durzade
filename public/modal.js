@@ -36,7 +36,7 @@ left.addEventListener("click", () => {
   number--;
   if (number === -1) number = imgSources.length - 1;
   modalImg.setAttribute("src", imgSources[number]);
-  console.log(number);
+  // console.log(number);
 });
 
 right.addEventListener("click", () => {
