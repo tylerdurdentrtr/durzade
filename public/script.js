@@ -10,7 +10,6 @@ function showNavTop() {
   } else {
     navTop.style.display = "none";
   }
-  // console.log(window.scrollY);
 }
 
 function openHmMenu() {
@@ -21,12 +20,6 @@ function closeHmMenu() {
   hMenuModal.style.display = "none";
   body.style.overflowY = "scroll";
 }
-
-window.onclick = function (e) {
-  if (e.target == hMenuModal) {
-    hMenuModal.style.display = "none";
-  }
-};
 
 hMenuIcon.addEventListener("click", openHmMenu);
 hmClose.addEventListener("click", closeHmMenu);

@@ -3,6 +3,7 @@ var modal = document.querySelector(".modal");
 var left = document.querySelector(".modal-left");
 var right = document.querySelector(".modal-right");
 var modalImg = document.querySelector(".modal-img");
+var hMenuModal = document.querySelector(".h-menu-modal");
 var number = 0;
 var currentSrc;
 var src;
@@ -27,8 +28,11 @@ images.forEach((image) => {
 });
 
 window.onclick = function (e) {
-  if (e.target == modal) {
+  if (e.target === modal) {
     modal.style.display = "none";
+  }
+  if (e.target === hMenuModal) {
+    hMenuModal.style.display = "none";
   }
 };
 

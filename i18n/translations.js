@@ -1404,7 +1404,7 @@ const translations = {
       home3: "Hizmetler",
       home4: "İletişim",
       home5: "Ana Sayfa",
-      red1: "Kırmızı", // değişebilir
+      red1: "Kırmızı",
       granite1: "Onyx",
       granite2: "Açıklama",
       granite3:
