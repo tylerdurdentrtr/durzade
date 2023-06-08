@@ -503,6 +503,19 @@ body {
   font-size: 24px;
 }
 
+.cewr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ce {
+  width: 20px !important;
+  /* background-color: red; */
+  margin-top: 5px;
+}
+
 @media screen and (max-width: 645px) {
   .modal-image img {
     width: 300px;
